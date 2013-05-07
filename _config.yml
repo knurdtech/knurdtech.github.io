@@ -2,7 +2,6 @@
 
 permalink: /:title
 paginate: 10
-pygments: true
 exclude: ['config.rb', 'README.md']
 markdown: rdiscount
 
@@ -12,6 +11,14 @@ domain: knurdtech.github.io
 title: Technology Review
 author: knurdtech
 email: training@github.com
+
+# GitHub will override with these values
+# safe: true
+# lsi: false
+# pygments: true
+# server: false
+# auto: false
+# watch: false
 
 # configuration for enhancements, uncomment to enable
 
