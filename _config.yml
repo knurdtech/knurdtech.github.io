@@ -1,0 +1,30 @@
+# standard jekyll configuration
+
+permalink: /:title
+paginate: 10
+pygments: true
+exclude: ['config.rb', 'README.md']
+markdown: rdiscount
+
+# configuration required for some pages
+
+domain: knurdtech.github.io
+title: Technology Review
+author: knurdtech
+email: training@github.com
+
+# configuration for enhancements, uncomment to enable
+
+# feedburner:
+# id: feedburnerid
+
+# google_analytics:
+# account: UA-XXXXX-X
+
+#github:
+#    username: github/teach.github.com
+
+#disqus:
+#    id: githubteachingmaterials
+
+
