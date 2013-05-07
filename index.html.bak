@@ -1,0 +1,55 @@
+---
+title: 'Knurd Tech'
+tagline: 'Home and Mobile Technology Reviews'
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>{{page.title}} | {{page.tagline}}</title>
+    <meta name="description" content="Home and Mobile Technology Reviews" />
+    <script type='text/javascript' src='http://knurdtech.com/wp-content/plugins/ghosturl/scripts/jquery-gu.js?ver=1.2'></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Knurd Tech</h1>
+        <h2>Automatically generated</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+
+<script type="text/javascript">
+//<![CDATA[
+var gu = { 'http://www.phonepower.com/': ['?guid=3',''], 'http://www.amazon.com/': ['?guid=2',''], 'http://www.wirefly.com/': ['?guid=4',''] };
+//]]>
+</script>
+  
+  </body>
+</html>
