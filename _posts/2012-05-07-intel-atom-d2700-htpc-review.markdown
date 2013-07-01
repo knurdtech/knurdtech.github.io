@@ -9,7 +9,7 @@ categories:
 - HTPC
 ---
 
-[![ZBOX ID80 and remote](/wp-content/uploads/2012/05/ZBox_wRemote_CleanBackground.jpg)](/wp-content/uploads/2012/05/ZBox_wRemote_CleanBackground.jpg)The ZBOX-ID80-U sports an Intel Atom D2700 processor and onboard Nvidia GeForce GT 520M graphics in a small package.  Does the latest and greatest Intel Atom work well as a Home Theater PC "HTPC" or Media Center computer?
+[![ZBOX ID80 and remote](/images/2012/05/ZBox_wRemote_CleanBackground.jpg)](/images/2012/05/ZBox_wRemote_CleanBackground.jpg)The ZBOX-ID80-U sports an Intel Atom D2700 processor and onboard Nvidia GeForce GT 520M graphics in a small package.  Does the latest and greatest Intel Atom work well as a Home Theater PC "HTPC" or Media Center computer?
 
 Let's take a look at the "ZBOX" package, the technology inside, and wrap-up with some benchmarks.
  
@@ -33,7 +33,7 @@ You can buy a compatible 2GB memory module for under $15 at [http://www.amazon.c
 
 
 
-[![Inside the ZBOX ID80](/wp-content/uploads/2012/05/ZBOX_ID80_Internal-266x300.jpg)](/wp-content/uploads/2012/05/ZBOX_ID80_Internal.jpg)Intel's third-generation "Cedarview" Atom finally sheds the 45 nm fabrication for a more efficient 32 nm processor.  TDP for the D2700 and the Intel NM10 Express chipset are stated to be around 10 watts.  That includes built-in PowerVR SGX 545 graphics which are disabled on the ID80 in favor of a dedicated GeForce GT 520M with 512 MB memory.
+[![Inside the ZBOX ID80](/images/2012/05/ZBOX_ID80_Internal-266x300.jpg)](/images/2012/05/ZBOX_ID80_Internal.jpg)Intel's third-generation "Cedarview" Atom finally sheds the 45 nm fabrication for a more efficient 32 nm processor.  TDP for the D2700 and the Intel NM10 Express chipset are stated to be around 10 watts.  That includes built-in PowerVR SGX 545 graphics which are disabled on the ID80 in favor of a dedicated GeForce GT 520M with 512 MB memory.
 
 Since the ID80 uses a dedicated graphics card, power consumption goes up.  The best estimate I could find on the graphics card was 12 watts.  However, during benchmarking the kill-a-watt meter registered as high as 45 watts total.  More common was 36 watts while in XBMC and even less while watching videos in 1080p High Definition.
 

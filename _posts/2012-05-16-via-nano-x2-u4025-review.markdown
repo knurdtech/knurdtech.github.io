@@ -9,7 +9,7 @@ categories:
 - HTPC
 ---
 
-[![Three Zotac ZBOXs standing on ends](http://knurdtech.com/wp-content/uploads/2012/05/HTPCs_portend.jpg)](http://knurdtech.com/wp-content/uploads/2012/05/HTPCs_portend.jpg)The ZBOX nano VD01 is the most difficult system to review.  Inside the only mini PC we tested from Zotac is a VIA Nano X2 U4025 processor with VX900 / Chrome9 graphics (pictured on right).
+[![Three Zotac ZBOXs standing on ends](/images/2012/05/HTPCs_portend.jpg)](/images/2012/05/HTPCs_portend.jpg)The ZBOX nano VD01 is the most difficult system to review.  Inside the only mini PC we tested from Zotac is a VIA Nano X2 U4025 processor with VX900 / Chrome9 graphics (pictured on right).
 
 On paper it looks very promising with CPU specs that should outperform the Intel Atom D2700.  However, we're more concerned with the graphics support and performance.
 
@@ -29,7 +29,7 @@ An Ubuntu installation was attempted but did not perform well.  VIA's graphics s
 
 The dual core Nano X2 should be on-par with or slightly ahead of the dual core Atom with proper software support.  As we covered in our previous HTPC system reviews ([AMD](/amd-e-450-review-linux-htpc/) and [Intel](/intel-atom-d2700-htpc-review/)), graphics and hardware acceleration are the true requirements to complement a low-end CPU for HD video playback.
 
-[![Inside the ZBOX nano VD01](http://knurdtech.com/wp-content/uploads/2012/05/Internal_Via-300x255.jpg)](http://knurdtech.com/wp-content/uploads/2012/05/Internal_Via.jpg)
+[![Inside the ZBOX nano VD01](/images/2012/05/Internal_Via-300x255.jpg)](/images/2012/05/Internal_Via.jpg)
 
 
 ## Graphics and Hardware Acceleration

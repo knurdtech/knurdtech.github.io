@@ -3,12 +3,13 @@
 permalink: /:title
 paginate: 10
 exclude: ['config.rb', 'README.md']
-markdown: rdiscount
+# markdown: rdiscount
 
 # configuration required for some pages
 
 domain: knurdtech.github.io
-title: Technology Review
+title: Knurd Tech
+tagline: 'Home and Mobile Technology Reviews'
 author: knurdtech
 email: training@github.com
 
