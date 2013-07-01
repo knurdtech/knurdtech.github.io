@@ -3,9 +3,7 @@
 permalink: /:title 
 
 exclude: [".rvmrc", "config.rb", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
-permalink: /:title
+# pygments: true
 paginate: 10
 # markdown: rdiscount
 
