@@ -11,7 +11,7 @@ categories:
 
 Unless you feel nostalgic and want to take a ride down memory lane, stop reading now. This post is just reminiscing on old computers from the past.
 
-So I ran across the receipts for computer builds previous to my [cheap desktop upgrade](http://knurdtech.com/cheap-desktop-upgrade) and had a good laugh.  This actually started in an effort to find details about my current PSU...which is almost the only detail missing.
+So I ran across the receipts for computer builds previous to my [cheap desktop upgrade](/cheap-desktop-upgrade) and had a good laugh.  This actually started in an effort to find details about my current PSU...which is almost the only detail missing.
 
 To start with the recent desktop upgrade replaced an Abit KV8 Pro Socket 754 motherboard ($80) with an AMD Sempron 2800+ 1.6 GHz "Palermo" CPU ($87).  Memory configuration was 1 GB of Corsair DDR400 (PC3200) CAS2.5 "value select" ($92).  This looks like another build that was supposed to receive an upgrade and never did.  These parts were ordered March 30, 2005.  The graphics were provided by a Leaktek GeForce A6200 with 128 MB DDR ($125).  According to notes it was unlocked to a 6600 with all eight pixel pipelines!  Also at that time a 200 GB Ultra ATA/133 7200 RPM hard drive with 8 MB buffer cost $110 and an NEC ND-3520A 16x Double Layer DVD+-RW cost $66.  Total cost $560 but that is missing case and power supply.
 

@@ -4,7 +4,6 @@ layout: post
 slug: set-up-a-computer-for-tv-using-openelec
 status: publish
 title: Set up a computer for TV using OpenELEC
-wordpress_id: '308'
 categories:
 - HTPC
 ---
@@ -23,8 +22,8 @@ Here is a quick video showing the full installation of OpenELEC.  Two USB drives
 
 During installation you will choose what media to install OpenELEC on (a hard drive or another flash drive).  Once installation is complete you can reformat and re-purpose the temporary flash drive as it should not be needed again.  As stated in the video, any cheap flash drive will work for the temporary installation files but you are better off using a decent flash drive (or hard drive) for final installation.
 
-We now have an almost working HTPC.  The only thing that needs tweaking are the sound settings.  The following video shows how to enable sound on the [ZBOX ID80](http://knurdtech.com/intel-atom-d2700-htpc-review/).  Using another computer on the same network, map to your HTPC ("\\_ipaddress_\configfiles" where ipaddress is the IP address of your OpenELEC which can be found on the System info → Summary screen in XBMC).  Copy the sound settings from [http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80](http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80) to a new file called asound.conf in the configfiles directory.
+We now have an almost working HTPC.  The only thing that needs tweaking are the sound settings.  The following video shows how to enable sound on the [ZBOX ID80]({% post_url 2012-05-07-intel-atom-d2700-htpc-review %}).  Using another computer on the same network, map to your HTPC ("\\\\ipaddress\\configfiles" where ipaddress is the IP address of your OpenELEC which can be found on the System info → Summary screen in XBMC).  Copy the sound settings from [http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80](http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80) to a new file called asound.conf in the configfiles directory.
 
 
 
-Now you just need media!  If you already have files on another computer just map to that directory from the XBMC media section.  Otherwise, try adding a few XBMC plug-ins to access on-line media.  Questions?  Comment below.
+Now you just need media!  If you already have files on another computer just map to that directory from the XBMC media section.  Otherwise, try adding a few XBMC plug-ins to access on-line media.

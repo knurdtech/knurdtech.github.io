@@ -9,9 +9,9 @@ categories:
 - HTPC
 ---
 
-[![Zotac Zbox ID80 and AD04 side-by-side](http://knurdtech.com/wp-content/uploads/2012/05/Intel_vs_AMD-300x226.jpg)](http://knurdtech.com/wp-content/uploads/2012/05/Intel_vs_AMD.jpg)Inside the ZBOX-AD04-U is an AMD E-450 APU with onboard Radeon HD 6320 graphics.  We plan to compare it with Intel's finest Atom processor (with Nvidia graphics) and see which wins as a media center computer.
+[![Zotac Zbox ID80 and AD04 side-by-side](/images/2012/05/Intel_vs_AMD-300x226.jpg)](/images/2012/05/Intel_vs_AMD.jpg)Inside the ZBOX-AD04-U is an AMD E-450 APU with onboard Radeon HD 6320 graphics.  We plan to compare it with Intel's finest Atom processor (with Nvidia graphics) and see which wins as a media center computer.
 
-To read more about the Zotac ZBOX in general see the post analyzing the Intel board [here](http://knurdtech.com/intel-atom-d2700-htpc-review/).  This post will look at the AMD technology and benchmarks against the previously reviewed ID80.
+To read more about the Zotac ZBOX in general see the post analyzing the Intel board [here](/intel-atom-d2700-htpc-review/).  This post will look at the AMD technology and benchmarks against the previously reviewed ID80.
 
 We will also be featuring articles detailing the full setup of a Linux home theater PC (HTPC) and the benefits of a small computer attached to your television.
 

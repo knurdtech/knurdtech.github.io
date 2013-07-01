@@ -40,7 +40,7 @@ Full OS!  OK, this can be argued as an advantage or disadvantage therefore I'm c
 
 **Test system**
 
-Ubuntu 10.04 "Lucid Lynx", integrated ATI Radeon™ HD 4200, AMD Sempron 140 with [AMD-V](http://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_.28AMD-V.29), and 4 GB RAM.  Even though this Sempron has an extra core unlocked, only one core/thread was assigned to each virtual machine.  More details about test system [here](http://knurdtech.com/cheap-desktop-upgrade/).
+Ubuntu 10.04 "Lucid Lynx", integrated ATI Radeon™ HD 4200, AMD Sempron 140 with [AMD-V](http://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_.28AMD-V.29), and 4 GB RAM.  Even though this Sempron has an extra core unlocked, only one core/thread was assigned to each virtual machine.  More details about test system [here](/cheap-desktop-upgrade/).
 
 **VMware Player 3.1.4**
 

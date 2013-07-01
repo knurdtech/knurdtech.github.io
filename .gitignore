@@ -1,2 +1,5 @@
 _drafts/
 _site/
+.ruby-gemset
+.ruby-version
+knurdtech.github.io.sub*
