@@ -12,12 +12,8 @@ categories:
 [![ZBOX ID80 and remote](/images/2012/05/ZBox_wRemote_CleanBackground.jpg)](/images/2012/05/ZBox_wRemote_CleanBackground.jpg)The ZBOX-ID80-U sports an Intel Atom D2700 processor and onboard Nvidia GeForce GT 520M graphics in a small package.  Does the latest and greatest Intel Atom work well as a Home Theater PC "HTPC" or Media Center computer?
 
 Let's take a look at the "ZBOX" package, the technology inside, and wrap-up with some benchmarks.
- 
-
-
 
 ## ZOTAC ZBOX Lineup
-
 
 The ZBOX typically comes in three size flavors. I'll refer to this size as a mini PC measuring (in inches) 7.4 x 7.4 x 1.73. It is small enough to fit just about anywhere and also supports attachment to VESA mounts. A VESA mount or Flat Display Mounting Interface is the standard used on monitors or TVs when mounting to a wall stand. So if you have available mounting holes (i.e. your TV is not already hanging from a wall) then a ZBOX mini-PC can attach to your TV.
 
@@ -27,21 +23,13 @@ ZOTAC also sells two versions of each box.  A regular version with no hard drive
 
 You can buy a compatible 2GB memory module for under $15 at [http://www.amazon.com/](http://www.amazon.com/) (just search for "so-dimm ddr3").  This motherboard supports 1066MHz (PC3-8500) memory so make sure the memory you select is at least that fast.  A hard drive is not even necessary which we will address in an upcoming post.  For this reason we do not suggest upgrading to the "PLUS" versions of any ZBOX.  However, if you do wish to install a hard drive make sure it is 2.5-inch (most SSDs and laptop drives are this size).
 
-
-
 ## Technology
-
-
 
 [![Inside the ZBOX ID80](/images/2012/05/ZBOX_ID80_Internal-266x300.jpg)](/images/2012/05/ZBOX_ID80_Internal.jpg)Intel's third-generation "Cedarview" Atom finally sheds the 45 nm fabrication for a more efficient 32 nm processor.  TDP for the D2700 and the Intel NM10 Express chipset are stated to be around 10 watts.  That includes built-in PowerVR SGX 545 graphics which are disabled on the ID80 in favor of a dedicated GeForce GT 520M with 512 MB memory.
 
 Since the ID80 uses a dedicated graphics card, power consumption goes up.  The best estimate I could find on the graphics card was 12 watts.  However, during benchmarking the kill-a-watt meter registered as high as 45 watts total.  More common was 36 watts while in XBMC and even less while watching videos in 1080p High Definition.
 
-
-
 ### Graphics Background and Hardware Acceleration
-
-
 
 Pairing Intel Atom with Nvidia graphics is still a huge graphics upgrade. Towards the end of 2013 this **may** no longer be the case as Intel plans to integrate Ivy Bridge graphics with the Intel Atom. Until then it is still best to avoid Intel graphics in the low-power HTPC field.
 
@@ -53,70 +41,33 @@ Current generation Atom also has graphics built-in. This time Intel selected a P
 
 Fortunately the Zotac ZBOX ID80 uses a GeForce GT 520M for graphic duties which proves more than capable.
 
-
-
 ## Additional Features
 
-
-
-
   * High-Definition analog stereo
-
-
   * Optical Digital S/PDIF output
-
-
   * HDMI and Dual-link DVI video ports
-
-
   * 802.11n/g/b wireless (WiFi)
-
-
   * Gigabit ethernet (hardwired internet connection)
-
-
   * 2 x USB 3.0 and 4 x USB 2.0 ports
-
-
   * SD/SDHC/MMC/MS/MS Pro/xD Card Reader
-
-
-
 
 ## Benchmarks
 
-
-
 Let us compare this Intel Atom / Nvidia GPU configuration to the first generation Nvidia ION (dual-core Atom 330 with Nvidia 9400M GPU) which has been handling my HTPC workload for the past couple years.  The benchmark images are in SVG format.  If your browser can't see them, get a new browser!
-
-
 
 ### System Configuration
 
-
-
 The only difference between the test configurations is the type of RAM since my old Atom uses DDR2 DIMMs and the new chipset uses DDR3 SO-DIMMs (laptop memory).
-
-
 
 ### Encoding Tests
 
-
 First up are video and audio encoding tests.
-
-
-
-
 
 CPU performance has increased by a decent amount across the board.
 
-
-
 ### Gaming Benchmarks
 
-
 Granted, HTPCs are not built for gaming but these tests give us an idea of GPU performance.  OpenArena uses the ioquake3 game engine while Xonotic uses a heavily modified version of the Quake engine called "DarkPlaces."
-
 
 #### OpenArena
 

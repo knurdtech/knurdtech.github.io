@@ -11,15 +11,9 @@ categories:
 
 ### Importing Contacts from Android:
 
-
-
 Nokia only provides directions to copy contacts over from another Nokia phone. However, importing contacts by other methods is quite easy. Here we are using a generic .vcf import that works well coming from an Android device.
 
-
-
 #### Liberating your contacts from Google
-
-
 
 First, make sure your Android contacts are synced with your phone's Google account. Most people leave sync enabled but you may check by going to...
 
@@ -27,31 +21,19 @@ Then sign into your Google account from a computer (signing into Gmail will acco
 
 The file downloads as a compressed .zip file. Use your preferred extraction tool (download 7-zip if you need one) to extract all .vcf files with contact data. In my case this was only one file "My Contacts.vcf".
 
-
-
 #### Importing contacts to Nokia Belle
-
-
 
 Now mount your Symbian phone to the computer in "Mass storage" mode and copy your .vcf contact file(s) to E: Mass memory -> Other -> Contacts. Note: I did try putting this file in other places and it was not recognized.
 
 Almost done. Simply open Contacts, tap the options menu in lower right -> Copy contact card -> From other memory. That's it! Your Nokia phone should have all your contacts now.
 
-
-
 ### Nokia message indicator won't stop blinking
-
-
 
 The manual is pretty worthless here as it only states "if the message indicator is blinking, your Inbox folder may be full."
 
 A quick search reveals the cause to lie in messages stored on your SIM card (left over from your old phone). A relatively simple fix although a little hidden in the menus. Open messaging -> options -> View folders -> options -> SIM messages. Now delete all those messages and your indicator should stop flashing.
 
-
-
 ### Using contacts on Belle
-
-
 
 So refreshing. Select a contact and Belle presents all contact methods for that person.
 

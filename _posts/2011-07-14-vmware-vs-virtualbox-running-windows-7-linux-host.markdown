@@ -24,19 +24,10 @@ No dual-boot!  Dual-booting is my least favorite option which I only resort to w
 Full OS!  OK, this can be argued as an advantage or disadvantage therefore I'm calling it a reason for using a virtual machine.  If you occasionally need another OS and a compatibility layer fails then this is an advantage.
 
 **Disadvantages (a.k.a. arguments for Wine)**
-
-
-
 	
   * Must have full copy of guest OS (in this case Windows 7)
-
-	
   * Uses more memory and disk space
-
-	
   * Drags down performance (by claiming some memory)
-
-
 
 **Test system**
 
@@ -45,83 +36,38 @@ Ubuntu 10.04 "Lucid Lynx", integrated ATI Radeon™ HD 4200, AMD Sempron 140 wit
 **VMware Player 3.1.4**
 
 VMware has many products at different price points.  This refers to the _gratis_ VMware Player (specifically VMware-Player-3.1.4-385536.i386.bundle).  The virtual machine was configured with 1024 MB RAM for Windows 7.  After Windows installation completed I installed the VMware Tools.  According to VMware's website, "installing VMware Tools eliminates or improves the following issues:
-
-
-
 	
   * low video resolution
-
-	
   * inadequate color depth
-
-	
   * incorrect display of network speed
-
-	
   * restricted movement of the mouse
-
-	
   * inability to copy and paste and drag-and-drop files
-
-	
-  * missing sound"
-
-
+  * missing sound
 
 Initially the display flickered and did not work correctly but the issue was solved by turning off 3D graphics acceleration in the VMware machine settings.  Other things confirmed working were USB and sound.  Knurd Sidebar: I actually used this setup to mount an Android phone and use Windows only software to install new bootloaders and a new kernel.
 
 Passmark ratings
-
 	
   * Overall PassMark rating: 558.9
-
-	
   * CPU Mark: 714.9
-
-	
   * 2D Graphics Mark: 372.5
-
-	
   * Memory Mark: 418.1
-
-	
   * Disk Mark: 1432.8
-
-
 
 **Oracle VM VirtualBox 4.0.10**
 
 Reviews on the web mostly show version 3.2 or older.  Starting with version 4.0, VirtualBox is split into components.  The base package consists of all open-source components then extension packs add functionality to the base package.  Currently there is only one extension pack which adds support for USB 2.0 devices, RDP, and PXE boot for Intel cards.
 
 The Guest Additions offer the following features:
-
-
-
 	
   * Mouse pointer integration
-
-	
   * Shared folders
-
-	
   * Better video support
-
-	
   * Seamless windows
-
-	
   * Generic host/guest communication channels
-
-	
   * Time synchronization
-
-	
   * Shared clipboard
-
-	
   * Automated logons (credentials passing)
-
-
 
 For some reason this VirtualBox seems smoother.  At first I planned to leave that as a subjective opinion then decided to run PerformanceTest 7.0 from PassMark.  Both virtual machines were assigned the same memory (1024 MB) but VirtualBox was assigned half the disk space of VMware (20 GB versus 40 GB).  Otherwise, I attempted to match all settings.  
 
@@ -130,25 +76,12 @@ As you can see from the results, VMware comes out ahead in everything other than
 Knurd sidebar: If you receive an error that your user is not part of the vboxusers group, the command (as root) is `gpasswd -a _youruser_ vboxusers` to add your user to the group.
 
 Passmark ratings
-
-
-
 	
   * Overall PassMark rating: 582.2
-
-	
   * CPU Mark: 682.1
-
-	
   * 2D Graphics Mark: 438.5
-
-	
   * Memory Mark: 404.6
-
-	
   * Disk Mark: 801.3
-
-
 
 **Conclusion**
 
