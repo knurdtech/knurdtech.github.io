@@ -1,5 +1,7 @@
 _drafts/
 _site/
+.sass-cache/
+stylesheets/
 .ruby-gemset
 .ruby-version
 knurdtech.github.io.sub*
