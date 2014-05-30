@@ -57,11 +57,19 @@ Let us compare this Intel Atom / Nvidia GPU configuration to the first generatio
 
 ### System Configuration
 
+<embed src="/images/2012/05/systems.svg" type="image/svg+xml" /><br />
+
 The only difference between the test configurations is the type of RAM since my old Atom uses DDR2 DIMMs and the new chipset uses DDR3 SO-DIMMs (laptop memory).
 
 ### Encoding Tests
 
 First up are video and audio encoding tests.
+
+<object data="/images/2012/05/1.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/2.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/3.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/4.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/5.svg" type="image/svg+xml"></object><br />
 
 CPU performance has increased by a decent amount across the board.
 
@@ -71,84 +79,48 @@ Granted, HTPCs are not built for gaming but these tests give us an idea of GPU p
 
 #### OpenArena
 
-
-
-
-
+<object data="/images/2012/05/6.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/7.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/10.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/13.svg" type="image/svg+xml"></object><br />
 
 The ZBOX finally fell below 30 fps in OpenArena after posting 30.03 fps at 1400 x 1050 resolution.
 
-
-
 #### Xonotic
 
-
-
-
-
+<object data="/images/2012/05/28.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/32.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/36.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/40.svg" type="image/svg+xml"></object><br />
 
 Neither box was able to clear 30 fps in Xonotic at "Ultra" quality so these are the "High" results.  The GeForce GT 520M is definitely an improvement over the GeForce 9400M used in the Nvidia ION.
 
-
-
 ### VDPAU
-
 
 And finally some tests for viewing videos.  VDPAU (Video Decode and Presentation API for Unix) is a library used to support decoding on the graphics card instead of relying on the CPU.  Using a GPU for decoding is always more efficient and absolutely required when viewing High Definition videos on a CPU this weak.  These are the most relevant to an HTPC using Nvidia graphics as the VDPAU library was designed by Nvidia.
 
-
-
-
+<object data="/images/2012/05/vdpau1.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/vdpau2.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/vdpau3.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/vdpau4.svg" type="image/svg+xml"></object><br />
+<object data="/images/2012/05/vdpau5.svg" type="image/svg+xml"></object><br />
 
 The older Nvidia ION was not even capable of running the 1920x1080 MPEG4 decoding test.
 
-
-
 ## Conclusions
-
 
 The ZBOX ID80 is a great looking box that serves well in the living room.  It stays plenty quiet although it does use a little more power than my old Nvidia ION.  Nevertheless, this system still uses much less energy than most desktops and makes a nice addition to any HDTV.
 
-
-
 ## Advantages
 
-
-
-
-
-
   * Quiet
-
-
   * Small
-
-
   * Powerful graphics for Media center
-
-
   * Media Remote Control with IR extender
-
-
   * Plenty of ports (USB 2.0/3.0, 6-in-1 Card Reader, HDMI, DVI
-
-
   * Easy opening for addition of Hard Drive and RAM
-
-
-
-
 
 ## Disadvantages
 
-
-
-
-
-
   * Not the most efficient HTPC
-
-
   * Gets a little too warm at times
-
-
