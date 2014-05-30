@@ -2,6 +2,7 @@
 date: '2012-05-07 15:26:23'
 layout: post
 slug: intel-atom-d2700-htpc-review
+redirect_from: /zotac-zbox-id80-htpc-review/
 status: publish
 title: Intel Atom D2700 - HTPC Review
 wordpress_id: '231'

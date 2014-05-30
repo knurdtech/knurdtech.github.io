@@ -2,6 +2,7 @@
 date: '2011-07-14 11:08:09'
 layout: post
 slug: vmware-vs-virtualbox-running-windows-7-linux-host
+redirect_from: /vmware-vs-virtualbox/
 status: publish
 title: VMware vs VirtualBox - Running Windows 7 on Linux host
 wordpress_id: '95'

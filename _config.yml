@@ -37,3 +37,5 @@ tagline: Home and Mobile Technology Reviews
 author: knurdtech
 email: training@github.com
 
+gems:
+  - jekyll-redirect-from

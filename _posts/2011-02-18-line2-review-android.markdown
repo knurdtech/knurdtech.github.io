@@ -2,6 +2,7 @@
 date: '2011-02-18 01:37:21'
 layout: post
 slug: line2-review-android
+redirect_from: /line2-review-for-android/
 status: publish
 title: Line2 Review for Android
 wordpress_id: '44'
