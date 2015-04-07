@@ -39,3 +39,8 @@ email: training@github.com
 
 gems:
   - jekyll-redirect-from
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+  
