@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Knurdtech</title>
+    <link>http://knurdtech.com/categories/linux/</link>
+    <description>Recent content in Linux on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jul 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>VMware vs VirtualBox - Running Windows 7 on Linux host</title>
+      <link>http://knurdtech.com/vmware-vs-virtualbox-running-windows-7-linux-host/</link>
+      <pubDate>Thu, 14 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/vmware-vs-virtualbox-running-windows-7-linux-host/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;VMware Player 3.1.4 and Oracle VM VirtualBox 4.0.10 - An initial review of two free virtual machines.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A virtual machine allows basically any guest OS to run within a host OS.  In this case running Windows 7 (guest OS) inside Ubuntu 10.04 (host OS).  It can also be useful for testing various distributions of Linux.  The goal is to find the best virtual machine for Linux.&lt;/p&gt;
+
+&lt;p&gt;As a quick background, I currently bounce between two computers: a desktop with Ubuntu 10.04 and a laptop with ArchBang.  On occasion I can not avoid requiring Windows.  Which leaves three options: setting up a dual-boot, running a virtual machine, or using a compatibility layer such as &lt;a href=&#34;http://www.winehq.org/&#34;&gt;Wine&lt;/a&gt;.  The third being the only completely &lt;em&gt;gratis&lt;/em&gt; (free as in beer) and &lt;em&gt;libre&lt;/em&gt; option (free software and no Windows license required).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages and Reasons for running a virtual machine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No dual-boot!  Dual-booting is my least favorite option which I only resort to when sharing a computer with someone that insists on having a full-fledged Windows install.  A dual-boot setup requires meticulous partitioning of the hard drive and implementing a boot menu.  On the other hand, when using a compatibility layer or virtual machine in Linux there is no reason to shutdown all applications and the computer just to run something in another OS.  I don&amp;rsquo;t run Windows long enough or often enough to want to deal with rebooting.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Sandbox_%28computer_security%29&#34;&gt;Sandboxing&lt;/a&gt;!  A virtual machine only accesses host resources through the emulator.  Basically the guest OS is isolated from the host OS providing additional security.&lt;/p&gt;
+
+&lt;p&gt;Full OS!  OK, this can be argued as an advantage or disadvantage therefore I&amp;rsquo;m calling it a reason for using a virtual machine.  If you occasionally need another OS and a compatibility layer fails then this is an advantage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages (a.k.a. arguments for Wine)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must have full copy of guest OS (in this case Windows 7)&lt;/li&gt;
+&lt;li&gt;Uses more memory and disk space&lt;/li&gt;
+&lt;li&gt;Drags down performance (by claiming some memory)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Test system&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ubuntu 10.04 &amp;ldquo;Lucid Lynx&amp;rdquo;, integrated ATI Radeon™ HD 4200, AMD Sempron 140 with &lt;a href=&#34;http://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_.28AMD-V.29&#34;&gt;AMD-V&lt;/a&gt;, and 4 GB RAM.  Even though this Sempron has an extra core unlocked, only one core/thread was assigned to each virtual machine.  More details about test system &lt;a href=&#34;http://knurdtech.com/cheap-desktop-upgrade/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VMware Player 3.1.4&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;VMware has many products at different price points.  This refers to the &lt;em&gt;gratis&lt;/em&gt; VMware Player (specifically VMware-Player-3.1.4-385536.i386.bundle).  The virtual machine was configured with 1024 MB RAM for Windows 7.  After Windows installation completed I installed the VMware Tools.  According to VMware&amp;rsquo;s website, &amp;ldquo;installing VMware Tools eliminates or improves the following issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;low video resolution&lt;/li&gt;
+&lt;li&gt;inadequate color depth&lt;/li&gt;
+&lt;li&gt;incorrect display of network speed&lt;/li&gt;
+&lt;li&gt;restricted movement of the mouse&lt;/li&gt;
+&lt;li&gt;inability to copy and paste and drag-and-drop files&lt;/li&gt;
+&lt;li&gt;missing sound&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Initially the display flickered and did not work correctly but the issue was solved by turning off 3D graphics acceleration in the VMware machine settings.  Other things confirmed working were USB and sound.  Knurd Sidebar: I actually used this setup to mount an Android phone and use Windows only software to install new bootloaders and a new kernel.&lt;/p&gt;
+
+&lt;p&gt;Passmark ratings&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Overall PassMark rating: 558.9&lt;/li&gt;
+&lt;li&gt;CPU Mark: 714.9&lt;/li&gt;
+&lt;li&gt;2D Graphics Mark: 372.5&lt;/li&gt;
+&lt;li&gt;Memory Mark: 418.1&lt;/li&gt;
+&lt;li&gt;Disk Mark: 1432.8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Oracle VM VirtualBox 4.0.10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reviews on the web mostly show version 3.2 or older.  Starting with version 4.0, VirtualBox is split into components.  The base package consists of all open-source components then extension packs add functionality to the base package.  Currently there is only one extension pack which adds support for USB 2.0 devices, RDP, and PXE boot for Intel cards.&lt;/p&gt;
+
+&lt;p&gt;The Guest Additions offer the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mouse pointer integration&lt;/li&gt;
+&lt;li&gt;Shared folders&lt;/li&gt;
+&lt;li&gt;Better video support&lt;/li&gt;
+&lt;li&gt;Seamless windows&lt;/li&gt;
+&lt;li&gt;Generic host/guest communication channels&lt;/li&gt;
+&lt;li&gt;Time synchronization&lt;/li&gt;
+&lt;li&gt;Shared clipboard&lt;/li&gt;
+&lt;li&gt;Automated logons (credentials passing)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For some reason this VirtualBox seems smoother.  At first I planned to leave that as a subjective opinion then decided to run PerformanceTest 7.0 from PassMark.  Both virtual machines were assigned the same memory (1024 MB) but VirtualBox was assigned half the disk space of VMware (20 GB versus 40 GB).  Otherwise, I attempted to match all settings.&lt;/p&gt;
+
+&lt;p&gt;As you can see from the results, VMware comes out ahead in everything other than 2D graphics.  Not sure what to make of the large disk discrepancy except to note that VirtualBox did complain about being on an ext4 file system.  The key factor on &lt;em&gt;my crippled hardware&lt;/em&gt; appears to be the better 2D graphics score in VirtualBox.&lt;/p&gt;
+
+&lt;p&gt;Knurd sidebar: If you receive an error that your user is not part of the vboxusers group, the command (as root) is &lt;code&gt;gpasswd -a _youruser_ vboxusers&lt;/code&gt; to add your user to the group.&lt;/p&gt;
+
+&lt;p&gt;Passmark ratings&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Overall PassMark rating: 582.2&lt;/li&gt;
+&lt;li&gt;CPU Mark: 682.1&lt;/li&gt;
+&lt;li&gt;2D Graphics Mark: 438.5&lt;/li&gt;
+&lt;li&gt;Memory Mark: 404.6&lt;/li&gt;
+&lt;li&gt;Disk Mark: 801.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is far from a complete test.  First off, USB still needs testing in VirtualBox at which time I will update this post or append a new one.  Beyond that (and in my opinion) VirtualBox runs better on this hardware.  I also prefer the UI and the interactions between host and guest OS in VirtualBox.  Your mileage may vary &amp;ndash; However, if you only have time to install one then my recommendation at this time stands with VirtualBox 4.0.10.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maemo 6 coming soon</title>
+      <link>http://knurdtech.com/maemo-6-coming-soon/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/maemo-6-coming-soon/</guid>
+      <description>&lt;p&gt;Nokia announced phones coming out in 2H 2010 with Maemo 6. It could be a great upgrade and provide much more user friendliness than their developer oriented N900 phone (running Maemo 5 with a &lt;a href=&#34;http://en.wikipedia.org/wiki/Texas_Instruments_OMAP&#34;&gt;TI OMAP&lt;/a&gt; 3430). Maemo is a linux based OS (like Android) for handheld devices that is a drastic change from Nokia&amp;rsquo;s main Symbian based operating systems.&lt;/p&gt;
+
+&lt;p&gt;Qualcomm has announced upgrades to the Snapdragon that look to compete with &lt;a href=&#34;http://en.wikipedia.org/wiki/Nvidia_Tegra&#34;&gt;Nvidia&amp;rsquo;s Tegra&lt;/a&gt; 2 line. The QSD8650A will increase to 1.3 GHz and lower to a 45nm processor (previously 65nm) capable of 720p HD playback and should be in products by the end of 2010. The QSD8672 will be dual CPU up to 1.5 GHz and support full 1080p HD with a later release date.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

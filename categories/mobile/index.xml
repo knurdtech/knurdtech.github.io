@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Knurdtech</title>
+    <link>http://knurdtech.com/categories/mobile/</link>
+    <description>Recent content in Mobile on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 04 Mar 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mobile Processor Snapshot</title>
+      <link>http://knurdtech.com/mobile-processor-snapshot/</link>
+      <pubDate>Fri, 04 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/mobile-processor-snapshot/</guid>
+      <description>&lt;p&gt;The goal here is to break down the main differentiating features of recent, new, and upcoming mobile processors.  ARM-based processors lead the superphone and tablet market.  I will break-down and quickly explain fabrication and number of cores plus touch on the graphics engines each mobile processor uses.  Let&amp;rsquo;s dig in.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fabrication:&lt;/strong&gt; Starting with the original Motorola Droid, Palm Pre, Google Nexus One, Droid Incredible, and even HTC EVO 4G the chips were built on a 65nm technology.  These were usually slower processors (compared to today) that required more power to run.  The best examples are TI&amp;rsquo;s OMAP 3430 and Qualcomm&amp;rsquo;s QSD8x50 Snapdragon.  Although the QSD8x50 did have the privilege of providing the first 1 GHz mobile processor!&lt;/p&gt;
+
+&lt;p&gt;Moving to current generation mobile processors they all use 40 - 45 nm technology.  This, of course, lowers power consumption while also increasing performance.  The TI OMAP 36xx series is a 45nm die shrink of the 34xx series.  Qualcomm&amp;rsquo;s MSM8x55 Snapdragon represents the same.  Samsung&amp;rsquo;s &amp;ldquo;Hummingbird&amp;rdquo; S5PC110 made famous by the Galaxy S line of cell phones is in this camp as well.  NVIDIA&amp;rsquo;s Tegra 2 appears to use the only, slightly smaller, 40nm process.&lt;/p&gt;
+
+&lt;p&gt;The next great evolution to 28nm will not happen until sometime around mid-year 2012.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cores and speed:&lt;/strong&gt; NVIDIA Tegra 2 wins first to market with dual-core 1 GHz.  It already holds a significant market lead powering the LG Optimus 2x, Motorola Atrix 4G, Motorola XOOM (tablet) and many others.  Also interesting is that NVIDIA plans to win first-to-market with &lt;strong&gt;quad&lt;/strong&gt;-core towards the end of 2011.&lt;/p&gt;
+
+&lt;p&gt;TI OMAP 4430 dual-core 1 GHz will follow shortly with what appears to be a slight mobile graphics advantage over the Tegra.  The 4430 is already announced for LG Optimus 3D and Blackberry Playbook (tablet).  The power consumption advantage may also be in TI&amp;rsquo;s favor but it is a little early to tell.  The &lt;a href=&#34;http://newscenter.ti.com/Blogs/newsroom/archive/2010/12/08/ti-s-omap4440-processor-boasts-new-upgrades-raises-the-bar-for-mobile-design-572583.aspx&#34;&gt;OMAP 4440&lt;/a&gt; arrives in the second half of 2011 rated at 1.5 GHz per core.&lt;/p&gt;
+
+&lt;p&gt;The final dual-core (worth noting) is the MSM8x60 Snapdragon.  It comes rated the fastest at launch with 1.2 GHz per core.  They also increased graphics performance and efficiency over MSM8x55.  First rumored phone is HTC Pyramid due around May.  Qualcomm also expects to reach 1.5 GHz by the end of 2011.&lt;/p&gt;
+
+&lt;p&gt;ST-Ericsson and Samsung also have dual-cores coming but they don&amp;rsquo;t match up well yet.  Even so, the competition for mobile processors is exciting right now and should drive the technology even faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Graphics:&lt;/strong&gt; Three main players in this market.  Imagination Technologies PowerVR division currently licenses the Series5 (SGX5xx) to TI, Samsung, Intel, and Apple.  Qualcomm uses in-house Adreno graphics (formerly ATI/AMD Imageon mobile division).  NVIDIA also stays in-house with their ULP GeForce GPUs.  A fourth worth mentioning is ARM&amp;rsquo;s Mali GPU used in Samsung&amp;rsquo;s dual-core Exynos 4210 and ST-Ericsson.  Considering Samsung also made a big investment in the Tegra 2 and ST-Ericsson committed to transitioning to PowerVR Series6 later&amp;hellip;ARM Mali is certainly behind the curve in graphics.&lt;/p&gt;
+
+&lt;p&gt;Quickly and hopefully not confusingly&amp;hellip;TI OMAP 34xx and 36xx uses SGX530.  Samsung Hummingbird and OMAP 44xx use the SGX540 with at least 2x performance increase.  Qualcomm MSM8x55 uses Adreno 205 and the MSM8x60 will use Adreno 220 with 2-4x boost.  Tegra 2 uses ULP GeForce which should fall in slightly below the OMAP 44xx implementation of SGX540 and the Adreno 220.  &lt;a href=&#34;http://www.anandtech.com/show/4179/ti-omap4-and-lg-optimus-3d-tested&#34;&gt;Here are some preliminary graphs&lt;/a&gt; but note the Adreno 220 absent since it is not yet released.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt; Competition rocks.  I left out some details on purpose (e.g. Cortex A8, A9, A15, Scorpion, and Krait comparisons).  If you&amp;rsquo;re on 65nm technology now is a good time to start looking at upgrade options.  If you want dual-core yesterday then Tegra 2 is the only game.  Can you wait a few months?  TI and Qualcomm should have good options by then.  Personally, the second half of 2012 looks even more promising.  I just hope a Hummingbird and OMAP 3621 will keep me content for 18 months.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Later in 2012:&lt;/strong&gt; TI, NVIDIA, and STEricsson should all release great Cortex-A15&amp;rsquo;s based on 28nm fabrication.  Qualcomm will also arrive with Krait based on 28nm fab.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Line2 Review for Android</title>
+      <link>http://knurdtech.com/line2-review-android/</link>
+      <pubDate>Fri, 18 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/line2-review-android/</guid>
+      <description>&lt;p&gt;Took the opportunity to load Line2 (Toktumi) from the Android market for a free 30-day trial review.  After all it did receive great praise from David Pogue of the New York Times.  Balderdash.&lt;/p&gt;
+
+&lt;p&gt;Let me preface this by saying I&amp;rsquo;m not the target audience for Line2.  Under certain circumstances this app could fit your needs.  Although I find it hard to believe that audience would use Android&amp;hellip;more than likely it would suit the zombies of Apple nation.&lt;/p&gt;
+
+&lt;p&gt;In plain English, Line2 is a phone line quality application to make regular calls to US/Canada landlines or cell phones using WiFi or 3G.  In that regard Line2 excels (for a cost of $10/month).&lt;/p&gt;
+
+&lt;p&gt;Line 2 is a pseudo VoIP app that affords no true VoIP advantages.  While support was fairly quick to respond during my trial, the answers they provided were disappointing.  I&amp;rsquo;m in search of a good &lt;a href=&#34;http://en.wikipedia.org/wiki/Wideband_Audio&#34;&gt;wideband audio&lt;/a&gt; application that works well on Android.  Does Line 2 / Toktumi support wideband?  Yes, if you call another paying Line2 customer.  Can you call a third-party SIP URI that supports wideband?  No.  Can they call your Line2 number wideband?  No.  What wideband codec does Line2 use?  To quote support &amp;ldquo;we can not divulge what codes we support, as they are constantly changing.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the application works as intended for the most part.  The only app related issue experienced was after a week of use.  First of all, I never selected to load the application automatically yet it always loaded after a reboot of my phone.  Secondly, I once had an issue of trying to exit the application.  As soon as I did it would reload again.  Luckily, and for all the faults mentioned above, I deleted Line2 and the problems went away.  Thanks again David Pogue!&lt;/p&gt;
+
+&lt;p&gt;(As a side note, they also do not support iNum or ENUM)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LTE, WiMAX, and HSPA&#43;: the 3.xG battle</title>
+      <link>http://knurdtech.com/lte-wimax-hspa/</link>
+      <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/lte-wimax-hspa/</guid>
+      <description>&lt;p&gt;According to Verizon, the initial LTE network will support average 5-12 Mbps down and 2-5 Mbps up.  Sprint/Clear WiMAX currently supports average 3-6 Mbps down and up to 1 Mbps up.  While T-Mobile&amp;rsquo;s current HSPA+ network along with AT&amp;amp;T&amp;rsquo;s planned rollout should fall somewhere in the middle.&lt;/p&gt;
+
+&lt;p&gt;The two key factors to achieve any of these are actual device throughput and backhaul/tower support in a given area.  Currently there are no handsets that support HSPA+ or LTE speeds.  T-Mobile has announced it&amp;rsquo;s first HSPA+ device, an HTC with Android, will be available in September.  Samsung and MetroPCS plan to release an LTE handset this year but Verizon&amp;rsquo;s latest statement on the matter said to expect one mid-2011.  Then there&amp;rsquo;s AT&amp;amp;T crying that LTE handset technology will be immature until 2012 and devices before then will have short battery life or be large by today&amp;rsquo;s standards.  In other words, it&amp;rsquo;s still all talk at this point.&lt;/p&gt;
+
+&lt;p&gt;Note: Even though LTE and WiMAX is advertised as 4G and may eventually meet the &lt;a href=&#34;http://www.itu.int/net/pressoffice/press_releases/2009/48.aspx&#34;&gt;ITU&lt;/a&gt; definition of 4G, neither do currently.  Among many other requirements, one is reaching 100 Mbps down.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TI OMAP 4</title>
+      <link>http://knurdtech.com/ti-omap-4/</link>
+      <pubDate>Wed, 03 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/ti-omap-4/</guid>
+      <description>&lt;p&gt;After mentioning Nvidia&amp;rsquo;s latest Tegra updates and Qualcomm&amp;rsquo;s Snapdragon announcement; it&amp;rsquo;s only fair to plug Texas Instruments as well.  Their OMAP 3 line already does rather well for itself by powering Motorola Droid, Palm Pre, and Nokia N900 to name a few.&lt;/p&gt;
+
+&lt;p&gt;Here is a quote from Slashgear.com involving their visit with TI: &amp;ldquo;Of course, Texas Instruments aren’t the only company with a high-profile mobile chipset to talk about, so we asked them how the OMAP4 compares to NVIDIA’s second-generation Tegra, announced back at CES 2010. While production devices based on the Tegra 2 aren’t available yet, TI reckon there are several points at which they eclipse their rival. According to Marcelo O Vieria, general manager of the OMAP business group, the OMAP4 1080p video codec is stronger than that of the Tegra 2, in fact he reckons TI “have a better video engine than [NVIDIA] do”. OMAP4 also supports 20-megapixel or higher image processing, as well as three simultaneous displays, and it has significantly more memory bandwidth than Tegra 2 which means it’s better at multitasking. Worth remembering, too, is that OMAP4 is suited to smartphones, which is an area Tegra is yet to extend into.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Of course their product has not been released yet either.  The full article can be found &lt;a href=&#34;http://www.slashgear.com/texas-instruments-omap4-hands-on-0172231/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Maemo 6 coming soon</title>
+      <link>http://knurdtech.com/maemo-6-coming-soon/</link>
+      <pubDate>Tue, 02 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/maemo-6-coming-soon/</guid>
+      <description>&lt;p&gt;Nokia announced phones coming out in 2H 2010 with Maemo 6. It could be a great upgrade and provide much more user friendliness than their developer oriented N900 phone (running Maemo 5 with a &lt;a href=&#34;http://en.wikipedia.org/wiki/Texas_Instruments_OMAP&#34;&gt;TI OMAP&lt;/a&gt; 3430). Maemo is a linux based OS (like Android) for handheld devices that is a drastic change from Nokia&amp;rsquo;s main Symbian based operating systems.&lt;/p&gt;
+
+&lt;p&gt;Qualcomm has announced upgrades to the Snapdragon that look to compete with &lt;a href=&#34;http://en.wikipedia.org/wiki/Nvidia_Tegra&#34;&gt;Nvidia&amp;rsquo;s Tegra&lt;/a&gt; 2 line. The QSD8650A will increase to 1.3 GHz and lower to a 45nm processor (previously 65nm) capable of 720p HD playback and should be in products by the end of 2010. The QSD8672 will be dual CPU up to 1.5 GHz and support full 1080p HD with a later release date.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

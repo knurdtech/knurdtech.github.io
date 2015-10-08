@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Storage on Knurdtech</title>
+    <link>http://knurdtech.com/categories/storage/</link>
+    <description>Recent content in Storage on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Feb 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/storage/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Turn USB devices into a NAS solution</title>
+      <link>http://knurdtech.com/turn-usb-devices-nas-solution/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/turn-usb-devices-nas-solution/</guid>
+      <description>&lt;p&gt;Iomega iConnect Wireless Data Station is out now for $99.  If you have USB hard drives, thumb drives, or printers and no way to connect them all to your home network&amp;hellip;this may be it.  It draws a mere 5 Watts while accepting 4 USB 2.0 devices.  The iConnect supports Gigabit ethernet and wireless 802.11(b/g/n).  If they had thrown in an eSata port I may have been sold.&lt;/p&gt;
+
+&lt;p&gt;The EMC LifeLine software installed on the iConnect can host your uPnP files for use with Xbox 360, PS3, iTunes, Roku, etc.  It also support FTP, PTP (Picture Transfer Protocol), SNMP, CIFS, and has a torrent download manager.  Oh, and Time Machine support for Mac users.  Product info page &lt;a href=&#34;http://go.iomega.com/en-us/products/network-storage-desktop/wireless-data-station/network-hard-drive-iconnect/?partner=4760#overviewItem_tab&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Voip on Knurdtech</title>
+    <link>http://knurdtech.com/categories/voip/</link>
+    <description>Recent content in Voip on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 18 Feb 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/voip/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Line2 Review for Android</title>
+      <link>http://knurdtech.com/line2-review-android/</link>
+      <pubDate>Fri, 18 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/line2-review-android/</guid>
+      <description>&lt;p&gt;Took the opportunity to load Line2 (Toktumi) from the Android market for a free 30-day trial review.  After all it did receive great praise from David Pogue of the New York Times.  Balderdash.&lt;/p&gt;
+
+&lt;p&gt;Let me preface this by saying I&amp;rsquo;m not the target audience for Line2.  Under certain circumstances this app could fit your needs.  Although I find it hard to believe that audience would use Android&amp;hellip;more than likely it would suit the zombies of Apple nation.&lt;/p&gt;
+
+&lt;p&gt;In plain English, Line2 is a phone line quality application to make regular calls to US/Canada landlines or cell phones using WiFi or 3G.  In that regard Line2 excels (for a cost of $10/month).&lt;/p&gt;
+
+&lt;p&gt;Line 2 is a pseudo VoIP app that affords no true VoIP advantages.  While support was fairly quick to respond during my trial, the answers they provided were disappointing.  I&amp;rsquo;m in search of a good &lt;a href=&#34;http://en.wikipedia.org/wiki/Wideband_Audio&#34;&gt;wideband audio&lt;/a&gt; application that works well on Android.  Does Line 2 / Toktumi support wideband?  Yes, if you call another paying Line2 customer.  Can you call a third-party SIP URI that supports wideband?  No.  Can they call your Line2 number wideband?  No.  What wideband codec does Line2 use?  To quote support &amp;ldquo;we can not divulge what codes we support, as they are constantly changing.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the application works as intended for the most part.  The only app related issue experienced was after a week of use.  First of all, I never selected to load the application automatically yet it always loaded after a reboot of my phone.  Secondly, I once had an issue of trying to exit the application.  As soon as I did it would reload again.  Luckily, and for all the faults mentioned above, I deleted Line2 and the problems went away.  Thanks again David Pogue!&lt;/p&gt;
+
+&lt;p&gt;(As a side note, they also do not support iNum or ENUM)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

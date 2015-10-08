@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on Knurdtech</title>
+    <link>http://knurdtech.com/categories/networking/</link>
+    <description>Recent content in Networking on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/networking/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Asus RT-N56U review</title>
+      <link>http://knurdtech.com/asus-rt-n56u-review/</link>
+      <pubDate>Wed, 28 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/asus-rt-n56u-review/</guid>
+      <description>&lt;p&gt;Features: 802.11n, dual-band (2.4 and 5 GHz), gigabit ethernet ports, and high throughput.&lt;/p&gt;
+
+&lt;p&gt;With enough 802.11n products around the house (laptop, tablet, and phone) it was time to update the router. After reading many reviews the &lt;a href=&#34;http://www.google.com&#34;&gt;ASUS RT-N56U&lt;/a&gt; won the honors. It is capable of extremely high total simultaneous throughput which suggests good processing power and build quality. You can also set up separate wireless SSIDs for the 2.4 and 5 GHz radios.&lt;/p&gt;
+
+&lt;p&gt;Setup was fairly straightforward other than having to fight the 2wire u-verse gateway to allow a router behind it (instructions for that &lt;a href=&#34;http://forums.att.com/t5/Residential-Gateway/U-verse-for-BUSINESS-2Wire-3600HGV-bridge-mode-or-another-AT-amp/m-p/2707755#M182&#34;&gt;here&lt;/a&gt;). Currently taking advantage of 3 of the 4 gigE ports (desktop, HTPC, and NAS), three devices on 2.4 GHz, and one device on 5 GHz with absolutely no problems. The HTPC is currently sharing at 100 Mbit/s but that needs to be addressed separately as it has nothing to do with the router.&lt;/p&gt;
+
+&lt;p&gt;The ASUS RT-N56U is a great piece of hardware. It&amp;rsquo;s a very capable wireless home router with just the right amount of features at a reasonable cost. At the time of this writing it can be had for around $130. Sure, there are cheaper 802.11n wireless routers out there but not with the same features and speed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

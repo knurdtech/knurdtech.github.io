@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Htpc on Knurdtech</title>
+    <link>http://knurdtech.com/categories/htpc/</link>
+    <description>Recent content in Htpc on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/htpc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Set up a computer for TV using OpenELEC</title>
+      <link>http://knurdtech.com/set-up-a-computer-for-tv-using-openelec/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/set-up-a-computer-for-tv-using-openelec/</guid>
+      <description>&lt;p&gt;We previously reviewed a few options for an HTPC. So what is an HTPC? It stands for home theater personal computer and can have different requirements based on your needs. Some may also refer to it as a TV computer or a media center PC.&lt;/p&gt;
+
+&lt;p&gt;Regardless what you call it, the most basic requirement is for watching videos from a computer on a television (typically in high definition nowadays).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://openelec.tv/&#34;&gt;OpenELEC&lt;/a&gt; is a lightweight and easy to use XBMC media center distribution.  It takes the complications of a full operating system out of the picture and provides a nice interface for your media collection.&lt;/p&gt;
+
+&lt;p&gt;In addition, by only loading what is necessary, OpenELEC boots fast and does not use much memory.  We installed it to a 512 MB USB flash drive.  All our media is stored on a NAS (network attached storage) device or streamed from the internet hence the preference for a small USB stick.&lt;/p&gt;
+
+&lt;p&gt;Here is a quick video showing the full installation of OpenELEC.  Two USB drives are used.  Once the latest version of OpenELEC is &lt;a href=&#34;http://openelec.tv/get-openelec&#34;&gt;downloaded&lt;/a&gt; for your hardware, follow their &lt;a href=&#34;http://wiki.openelec.tv/index.php?title=Installation&#34;&gt;instructions&lt;/a&gt; to write it to a temporary flash drive.  We performed this step ahead of the video.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/f2u86QekgFE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;During installation you will choose what media to install OpenELEC on (a hard drive or another flash drive).  Once installation is complete you can reformat and re-purpose the temporary flash drive as it should not be needed again.  As stated in the video, any cheap flash drive will work for the temporary installation files but you are better off using a decent flash drive (or hard drive) for final installation.&lt;/p&gt;
+
+&lt;p&gt;We now have an almost working HTPC.  The only thing that needs tweaking are the sound settings.  The following video shows how to enable sound on the &lt;a href=&#34;{% post_url 2012-05-07-intel-atom-d2700-htpc-review %}&#34;&gt;ZBOX ID80&lt;/a&gt;.  Using another computer on the same network, map to your HTPC (&amp;rdquo;\\ipaddress\configfiles&amp;rdquo; where ipaddress is the IP address of your OpenELEC which can be found on the System info → Summary screen in XBMC).  Copy the sound settings from &lt;a href=&#34;http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80&#34;&gt;http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80&lt;/a&gt; to a new file called asound.conf in the configfiles directory.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/WENWrBQFLz8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Now you just need media!  If you already have files on another computer just map to that directory from the XBMC media section.  Otherwise, try adding a few XBMC plug-ins to access on-line media.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VIA Nano X2 U4025 Review</title>
+      <link>http://knurdtech.com/via-nano-x2-u4025-review/</link>
+      <pubDate>Wed, 16 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/via-nano-x2-u4025-review/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/HTPCs_portend.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/HTPCs_portend.jpg&#34; alt=&#34;Three Zotac ZBOXs standing on ends&#34; /&gt;
+&lt;/a&gt;The ZBOX nano VD01 is the most difficult system to review.  Inside the only mini PC we tested from Zotac is a VIA Nano X2 U4025 processor with VX900 / Chrome9 graphics (pictured on right).&lt;/p&gt;
+
+&lt;p&gt;On paper it looks very promising with CPU specs that should outperform the Intel Atom D2700.  However, we&amp;rsquo;re more concerned with the graphics support and performance.&lt;/p&gt;
+
+&lt;h2 id=&#34;testing-setup:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Testing setup&lt;/h2&gt;
+
+&lt;p&gt;For this system we used a 256GB SSD with Windows 7 Home Premium and a 2GB 1066MHz DDR3 SO-DIMM module.&lt;/p&gt;
+
+&lt;p&gt;An Ubuntu installation was attempted but did not perform well.  VIA&amp;rsquo;s graphics support for Linux is horrendous and doesn&amp;rsquo;t appear to be improving.  Linux was tested with an Ubuntu graphics driver from Zotac&amp;rsquo;s website dated 4-Jan-2012.&lt;/p&gt;
+
+&lt;h2 id=&#34;technology:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;The dual core Nano X2 should be on-par with or slightly ahead of the dual core Atom with proper software support.  As we covered in our previous HTPC system reviews (&lt;a href=&#34;http://knurdtech.com/amd-e-450-review-linux-htpc/&#34;&gt;AMD&lt;/a&gt; and &lt;a href=&#34;http://knurdtech.com/intel-atom-d2700-htpc-review/&#34;&gt;Intel&lt;/a&gt;), graphics and hardware acceleration are the true requirements to complement a low-end CPU for HD video playback.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/Internal_Via.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/Internal_Via-300x255.jpg&#34; alt=&#34;Inside the ZBOX nano VD01&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;graphics-and-hardware-acceleration:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Graphics and Hardware Acceleration&lt;/h2&gt;
+
+&lt;p&gt;Theoretically the VX900 should provide 1080p video playback through hardware acceleration.  VIA claims support for H.264, MPEG-4, MPEG-2, VC-1, and Blu-ray to name a few.&lt;/p&gt;
+
+&lt;p&gt;In my testing, &lt;a href=&#34;http://www.videolan.org/vlc&#34;&gt;VLC media player&lt;/a&gt; did not perform well with a 1080p MKV nor did Windows Media Player with the DivX Plus Codec Pack.  However, XBMC for Windows played the same video file almost skip-free before either of those previous players were tested.&lt;/p&gt;
+
+&lt;h2 id=&#34;other-shortfalls:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Other Shortfalls&lt;/h2&gt;
+
+&lt;p&gt;Unlike the other systems tested, I was only able to get two USB ports working on a bare system which makes installing and running an OS from USB nearly impossible.  However, after installing Windows to an internal hard drive it is possible to load drivers for the two rear USB 3.0 ports and front facing card reader.&lt;/p&gt;
+
+&lt;p&gt;Which brings us to another shortfall&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;driver-hell:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Driver Hell&lt;/h3&gt;
+
+&lt;p&gt;Windows required numerous drivers from the Zotac website.  At the time of writing this, the Zbox VD01 drivers can be found at &lt;a href=&#34;http://www.zotacusa.com/downloads?cat=284#downloadscontent&#34;&gt;http://www.zotacusa.com/downloads?cat=284#downloadscontent&lt;/a&gt;.  I started with the Windows 7 64-bit graphics drivers to support the proper screen resolution.  Almost all other drivers were installed with the exception of the BIOS update which kept failing.&lt;/p&gt;
+
+&lt;h3 id=&#34;power-consumption:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Power Consumption&lt;/h3&gt;
+
+&lt;p&gt;Looking over the spec sheet I was expecting this box to put up very low power consumption numbers.  Yet it was pulling TDP figures anywhere from 18 all the way to 35 watts on occasion.  XBMC idled around 25 watts and Cinebench ran at 29-30 watts.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The Zotac ZBOX VD01 runs too hot and uses too much power to be worth all the effort involved.  Initial research showed this might run cooler than the &lt;a href=&#34;http://knurdtech.com/amd-e-450-review-linux-htpc/&#34;&gt;AMD E-450&lt;/a&gt;.  However, the AMD wins in every category except price.  Some could argue it wins in that category as well&amp;hellip;considering what you get with the Nano X2.&lt;/p&gt;
+
+&lt;p&gt;It is the cheapest and smallest box out of the three Zotac&amp;rsquo;s just covered.  That might make it worthwhile to someone out there.  Expect many roadblocks while getting the VD01 working.  It may even reward you with HD video in the end.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AMD E-450 Review - Linux HTPC</title>
+      <link>http://knurdtech.com/amd-e-450-review-linux-htpc/</link>
+      <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/amd-e-450-review-linux-htpc/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/Intel_vs_AMD.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/Intel_vs_AMD-300x226.jpg&#34; alt=&#34;Zotac Zbox ID80 and AD04 side-by-side&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inside the ZBOX-AD04-U is an AMD E-450 APU with onboard Radeon HD 6320 graphics.  We plan to compare it with Intel&amp;rsquo;s finest Atom processor (with Nvidia graphics) and see which wins as a media center computer.&lt;/p&gt;
+
+&lt;p&gt;To read more about the Zotac ZBOX in general see the post analyzing the Intel board &lt;a href=&#34;http://knurdtech.com/intel-atom-d2700-htpc-review/&#34;&gt;here&lt;/a&gt;.  This post will look at the AMD technology and benchmarks against the previously reviewed ID80.&lt;/p&gt;
+
+&lt;p&gt;We will also be featuring articles detailing the full setup of a Linux home theater PC (HTPC) and the benefits of a small computer attached to your television.&lt;/p&gt;
+
+&lt;h2 id=&#34;zotac-zbox-setup:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;ZOTAC ZBOX Setup&lt;/h2&gt;
+
+&lt;p&gt;Once again we installed a 120GB SSD and 2GB 1066MHz DDR3 SO-DIMM for benchmarking purposes.&lt;/p&gt;
+
+&lt;p&gt;You can usually secure a 2GB memory module for under $15 at &lt;a href=&#34;http://www.amazon.com/&#34;&gt;http://www.amazon.com/&lt;/a&gt; (just search for &amp;ldquo;so-dimm ddr3&amp;rdquo;).  This motherboard supports 1333MHz (PC3-10600) memory so make sure the memory you select is at least that fast.  A hard drive is not necessary which we will address in an upcoming post.  For this reason we do not suggest upgrading to the &amp;ldquo;PLUS&amp;rdquo; versions of any ZBOX.  However, if you do wish to install a hard drive make sure it is 2.5-inch (most SSDs and laptop drives are this size).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notice&lt;/strong&gt; we used slower 1066MHz memory for these benchmarks.  Any benchmarks able to take advantage of faster 1333MHz data rate memory may score higher.&lt;/p&gt;
+
+&lt;h2 id=&#34;technology:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;AMD E-450 is a low power APU (accelerated processing unit) that combines a CPU and GPU on the same die.  However, while Intel fails to deliver good integrated graphics with any of their low-power Atom-based CPUs, AMD&amp;rsquo;s integrated graphics are worthy of high definition video.  The APU is rated at 18 watt TDP and since we do not have to add discrete graphics the overall system power consumption stays fairly close to that figure.&lt;/p&gt;
+
+&lt;p&gt;Overall system power varied from 17 watts while idle in Ubuntu 12.04 up to 28 watts while encoding videos.  The E-450 was only drawing 21-22 watts during the gaming benchmarks.  Across the board power was significantly down from the Atom/Nvidia combination.  Power figures are observed using a P3 &amp;ldquo;kill a watt&amp;rdquo; meter.&lt;/p&gt;
+
+&lt;h3 id=&#34;graphics-background-and-hardware-acceleration:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Graphics Background and Hardware Acceleration&lt;/h3&gt;
+
+&lt;p&gt;Graphics in the E-450 are handled by the integrated Radeon HD 6320.  Unlike the Radeon HD 6310 in the AMD E-350 APU, the HD 6320 supports higher bandwidth DDR3-1333 memory and turbo mode (graphics clock rate will speed up when requested).&lt;/p&gt;
+
+&lt;p&gt;Both the Radeon HD 6310 and 6320 support UVD 3.0.  UVD (Unified Video Decoder) is the video decoding engine AMD/ATI uses to support hardware decoding of H.264 and VC-1 high definition video codecs.  In Linux this is accomplished through the XvBA API with the use of the AMD linux driver (fglrx).  If all that went over your head, don&amp;rsquo;t worry&amp;hellip;there are versions of XBMC that are nice enough to take care of it for us.&lt;/p&gt;
+
+&lt;p&gt;You will notice two benchmarks of this AMD platform on the next page.  Ubuntu 12.04 does not install the AMD linux driver by default and instead relies on an open source video driver (referred to as &amp;ldquo;radeon&amp;rdquo;).  We decided to do the benchmarks on a base Ubuntu install followed by benchmarks with the AMD &amp;ldquo;fglrx&amp;rdquo; driver.  Again, this is only important if you install a version of Linux without AMD drivers out of the box.&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-features:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Additional Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High-Definition analog stereo&lt;/li&gt;
+&lt;li&gt;Optical Digital S/PDIF output&lt;/li&gt;
+&lt;li&gt;HDMI and DisplayPort video ports&lt;/li&gt;
+&lt;li&gt;HDMI-to-DVI adapter&lt;/li&gt;
+&lt;li&gt;802.11n/g/b wireless (WiFi)&lt;/li&gt;
+&lt;li&gt;Gigabit ethernet (hardwired internet connection)&lt;/li&gt;
+&lt;li&gt;2 x USB 3.0 and 4 x USB 2.0 ports&lt;/li&gt;
+&lt;li&gt;SD/SDHC/MMC/MS/MS Pro/xD Card Reader&lt;/li&gt;
+&lt;li&gt;Media Remote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;benchmarks:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Benchmarks&lt;/h2&gt;
+
+&lt;p&gt;In addition to the Nvidia ION and Zbox ID80 from last time, we now have the AMD E-450 with open source drivers and AMD linux drivers.  Focus on the fglrx results as the radeon results are just here for reference.&lt;/p&gt;
+
+&lt;h3 id=&#34;system-configuration:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;System Configuration&lt;/h3&gt;
+
+&lt;p&gt;The AMD E-450 is using the same type and speed of RAM as the Intel Atom D2700.  This is unfortunate as the E-450 actually supports higher clocked RAM as mentioned earlier.&lt;/p&gt;
+
+&lt;h3 id=&#34;encoding-tests:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Encoding Tests&lt;/h3&gt;
+
+&lt;p&gt;First up are video and audio encoding tests.&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/e450_1.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_2.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_3.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_4.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_5.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;AMD actually wins in three out of five encoding tests.  Not bad considering it uses much less power while running the tests.&lt;/p&gt;
+
+&lt;h3 id=&#34;gaming-benchmarks:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Gaming Benchmarks&lt;/h3&gt;
+
+&lt;p&gt;HTPCs are not built for gaming but these tests give us an idea of GPU performance.  OpenArena uses the ioquake3 game engine while Xonotic uses a heavily modified version of the Quake engine called &amp;ldquo;DarkPlaces.&amp;rdquo;&lt;/p&gt;
+
+&lt;h4 id=&#34;openarena:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;OpenArena&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/e450_6.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_7.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_10.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_13.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;AMD falls short in OpenArena against the Atom D2700 but at least does marginally better than the older Atom 330 / Nvidia 9400M combo in most cases.&lt;/p&gt;
+
+&lt;h4 id=&#34;xonotic:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Xonotic&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/e450_28.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_32.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_36.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_40.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The E-450 fairs much better in Xonotic and even bests the D2700 in some scenarios.&lt;/p&gt;
+
+&lt;h3 id=&#34;xvba:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;XvBA&lt;/h3&gt;
+
+&lt;p&gt;X-Video Bitstream Acceleration is the interface AMD uses for hardware acceleration with Radeon and Fusion graphics processors.  Unfortunately, the Phoronix Test Suite we&amp;rsquo;re using does not have a benchmark for this.  Therefore, we don&amp;rsquo;t have any results similar to the VDPAU video viewing tests that were run with the Nvidia graphics.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusions:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The ZBOX AD04 has the looks and all the right features for the living room.  It remains quiet and uses very little power.  Hardware acceleration still isn&amp;rsquo;t perfect in the AMD / Linux world but it has come a long way and gets my recommendation.  If you plan to use Windows for your HTPC it &lt;em&gt;should&lt;/em&gt; have even better hardware acceleration support out of the box.&lt;/p&gt;
+
+&lt;h2 id=&#34;advantages:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Advantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quiet and Efficient&lt;/li&gt;
+&lt;li&gt;Small&lt;/li&gt;
+&lt;li&gt;Great graphics for Media center&lt;/li&gt;
+&lt;li&gt;Media Remote Control with IR extender&lt;/li&gt;
+&lt;li&gt;Plenty of ports (USB 2.0/3.0, 6-in-1 Card Reader, HDMI, DisplayPort)&lt;/li&gt;
+&lt;li&gt;Easy opening for addition of Hard Drive and RAM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;disadvantages:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Disadvantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Minor configuration required&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intel Atom D2700 - HTPC Review</title>
+      <link>http://knurdtech.com/intel-atom-d2700-htpc-review/</link>
+      <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/intel-atom-d2700-htpc-review/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/ZBox_wRemote_CleanBackground.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/ZBox_wRemote_CleanBackground.jpg&#34; alt=&#34;ZBOX ID80 and remote&#34; /&gt;
+&lt;/a&gt;The ZBOX-ID80-U sports an Intel Atom D2700 processor and onboard Nvidia GeForce GT 520M graphics in a small package.  Does the latest and greatest Intel Atom work well as a Home Theater PC &amp;ldquo;HTPC&amp;rdquo; or Media Center computer?&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s take a look at the &amp;ldquo;ZBOX&amp;rdquo; package, the technology inside, and wrap-up with some benchmarks.&lt;/p&gt;
+
+&lt;h2 id=&#34;zotac-zbox-lineup:3076c725bae217a7f64d8c72726ed416&#34;&gt;ZOTAC ZBOX Lineup&lt;/h2&gt;
+
+&lt;p&gt;The ZBOX typically comes in three size flavors. I&amp;rsquo;ll refer to this size as a mini PC measuring (in inches) 7.4 x 7.4 x 1.73. It is small enough to fit just about anywhere and also supports attachment to VESA mounts. A VESA mount or Flat Display Mounting Interface is the standard used on monitors or TVs when mounting to a wall stand. So if you have available mounting holes (i.e. your TV is not already hanging from a wall) then a ZBOX mini-PC can attach to your TV.&lt;/p&gt;
+
+&lt;p&gt;The other two sizes are the ZBOX nano and Blu-ray versions. The nano is the smallest in the lineup which carries the disadvantage of more heat build up. While the Blu-ray versions obviously support Blu-ray disks.  Personally, I rarely use DVDs or Blu-rays in my HTPC.  I prefer to backup disks using a more powerful computer and use the HTPC to play that file in the living room.&lt;/p&gt;
+
+&lt;p&gt;ZOTAC also sells two versions of each box.  A regular version with no hard drive or RAM and a &amp;ldquo;PLUS&amp;rdquo; version that includes both.  However, even the PLUS version arrives without an OS installed.  We received the base version and installed a 120GB SSD and 2GB DDR3 SO-DIMM for benchmarking purposes.&lt;/p&gt;
+
+&lt;p&gt;You can buy a compatible 2GB memory module for under $15 at &lt;a href=&#34;http://www.amazon.com/&#34;&gt;http://www.amazon.com/&lt;/a&gt; (just search for &amp;ldquo;so-dimm ddr3&amp;rdquo;).  This motherboard supports 1066MHz (PC3-8500) memory so make sure the memory you select is at least that fast.  A hard drive is not even necessary which we will address in an upcoming post.  For this reason we do not suggest upgrading to the &amp;ldquo;PLUS&amp;rdquo; versions of any ZBOX.  However, if you do wish to install a hard drive make sure it is 2.5-inch (most SSDs and laptop drives are this size).&lt;/p&gt;
+
+&lt;h2 id=&#34;technology:3076c725bae217a7f64d8c72726ed416&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/ZBOX_ID80_Internal.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/ZBOX_ID80_Internal-266x300.jpg&#34; alt=&#34;Inside the ZBOX ID80&#34; /&gt;
+&lt;/a&gt;Intel&amp;rsquo;s third-generation &amp;ldquo;Cedarview&amp;rdquo; Atom finally sheds the 45 nm fabrication for a more efficient 32 nm processor.  TDP for the D2700 and the Intel NM10 Express chipset are stated to be around 10 watts.  That includes built-in PowerVR SGX 545 graphics which are disabled on the ID80 in favor of a dedicated GeForce GT 520M with 512 MB memory.&lt;/p&gt;
+
+&lt;p&gt;Since the ID80 uses a dedicated graphics card, power consumption goes up.  The best estimate I could find on the graphics card was 12 watts.  However, during benchmarking the kill-a-watt meter registered as high as 45 watts total.  More common was 36 watts while in XBMC and even less while watching videos in 1080p High Definition.&lt;/p&gt;
+
+&lt;h3 id=&#34;graphics-background-and-hardware-acceleration:3076c725bae217a7f64d8c72726ed416&#34;&gt;Graphics Background and Hardware Acceleration&lt;/h3&gt;
+
+&lt;p&gt;Pairing Intel Atom with Nvidia graphics is still a huge graphics upgrade. Towards the end of 2013 this &lt;strong&gt;may&lt;/strong&gt; no longer be the case as Intel plans to integrate Ivy Bridge graphics with the Intel Atom. Until then it is still best to avoid Intel graphics in the low-power HTPC field.&lt;/p&gt;
+
+&lt;p&gt;Intel&amp;rsquo;s first generation Atom &lt;a href=&#34;http://en.wikipedia.org/wiki/Nettop&#34;&gt;nettop&lt;/a&gt; processors did not include an on-die GPU. However, if the motherboard uses the Intel 945GC/945GSE chipset then it has an integrated GMA 950 GPU. Nvidia then stepped in by creating the first ION platform to finally provide the Atom with respectable graphics (and 1080p playback) via the GeForce 9400M. Read more about it &lt;a href=&#34;http://knurdtech.com/2009-htpc-components-and-specs/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The second generation Atom added graphics onto the CPU with Intel&amp;rsquo;s own GMA 3150 which is still not capable of 1080p playback and does not have VC-1 or AVC hardware acceleration built-in. Again, Nvidia released an ION platform (Next Generation ION or ION 2) but because of the chipset limitations it was also a step back in some ways. The Nvidia GeForce G210M is still a nice improvement over Intel&amp;rsquo;s graphics but the available bandwidth to Nvidia went down. Since Intel switched over to a proprietary DMI connection, Nvidia has to provide dedicated graphics through a PCIe 1.1 lane (as opposed to directly integrating graphics with the first generation ION). However, 1080p playback was once again supported with very capable hardware acceleration.&lt;/p&gt;
+
+&lt;p&gt;Current generation Atom also has graphics built-in. This time Intel selected a PowerVR SGX 545 GPU (a.k.a. Intel GMA 3650) which you may recognize as a popular graphics solution in recent smart phones. Theoretically it should be an improvement as now hardware acceleration of VC-1 and AVC videos are supported. In practice this is not always the case. For Linux users this is still a loss as Imagination Technologies (makers of PowerVR) does not support the open-source community very well. Initial testing even shows the PowerVR is not supported well in Windows.&lt;/p&gt;
+
+&lt;p&gt;Fortunately the Zotac ZBOX ID80 uses a GeForce GT 520M for graphic duties which proves more than capable.&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-features:3076c725bae217a7f64d8c72726ed416&#34;&gt;Additional Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High-Definition analog stereo&lt;/li&gt;
+&lt;li&gt;Optical Digital S/PDIF output&lt;/li&gt;
+&lt;li&gt;HDMI and Dual-link DVI video ports&lt;/li&gt;
+&lt;li&gt;802.11n/g/b wireless (WiFi)&lt;/li&gt;
+&lt;li&gt;Gigabit ethernet (hardwired internet connection)&lt;/li&gt;
+&lt;li&gt;2 x USB 3.0 and 4 x USB 2.0 ports&lt;/li&gt;
+&lt;li&gt;SD/SDHC/MMC/MS/MS Pro/xD Card Reader&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;benchmarks:3076c725bae217a7f64d8c72726ed416&#34;&gt;Benchmarks&lt;/h2&gt;
+
+&lt;p&gt;Let us compare this Intel Atom / Nvidia GPU configuration to the first generation Nvidia ION (dual-core Atom 330 with Nvidia 9400M GPU) which has been handling my HTPC workload for the past couple years.  The benchmark images are in SVG format.  If your browser can&amp;rsquo;t see them, get a new browser!&lt;/p&gt;
+
+&lt;h3 id=&#34;system-configuration:3076c725bae217a7f64d8c72726ed416&#34;&gt;System Configuration&lt;/h3&gt;
+
+&lt;p&gt;&lt;embed src=&#34;http://knurdtech.com/images/2012/05/systems.svg&#34; type=&#34;image/svg+xml&#34; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The only difference between the test configurations is the type of RAM since my old Atom uses DDR2 DIMMs and the new chipset uses DDR3 SO-DIMMs (laptop memory).&lt;/p&gt;
+
+&lt;h3 id=&#34;encoding-tests:3076c725bae217a7f64d8c72726ed416&#34;&gt;Encoding Tests&lt;/h3&gt;
+
+&lt;p&gt;First up are video and audio encoding tests.&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/1.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/2.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/3.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/4.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/5.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;CPU performance has increased by a decent amount across the board.&lt;/p&gt;
+
+&lt;h3 id=&#34;gaming-benchmarks:3076c725bae217a7f64d8c72726ed416&#34;&gt;Gaming Benchmarks&lt;/h3&gt;
+
+&lt;p&gt;Granted, HTPCs are not built for gaming but these tests give us an idea of GPU performance.  OpenArena uses the ioquake3 game engine while Xonotic uses a heavily modified version of the Quake engine called &amp;ldquo;DarkPlaces.&amp;rdquo;&lt;/p&gt;
+
+&lt;h4 id=&#34;openarena:3076c725bae217a7f64d8c72726ed416&#34;&gt;OpenArena&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/6.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/7.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/10.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/13.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The ZBOX finally fell below 30 fps in OpenArena after posting 30.03 fps at 1400 x 1050 resolution.&lt;/p&gt;
+
+&lt;h4 id=&#34;xonotic:3076c725bae217a7f64d8c72726ed416&#34;&gt;Xonotic&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/28.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/32.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/36.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/40.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neither box was able to clear 30 fps in Xonotic at &amp;ldquo;Ultra&amp;rdquo; quality so these are the &amp;ldquo;High&amp;rdquo; results.  The GeForce GT 520M is definitely an improvement over the GeForce 9400M used in the Nvidia ION.&lt;/p&gt;
+
+&lt;h3 id=&#34;vdpau:3076c725bae217a7f64d8c72726ed416&#34;&gt;VDPAU&lt;/h3&gt;
+
+&lt;p&gt;And finally some tests for viewing videos.  VDPAU (Video Decode and Presentation API for Unix) is a library used to support decoding on the graphics card instead of relying on the CPU.  Using a GPU for decoding is always more efficient and absolutely required when viewing High Definition videos on a CPU this weak.  These are the most relevant to an HTPC using Nvidia graphics as the VDPAU library was designed by Nvidia.&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/vdpau1.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau2.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau3.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau4.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau5.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The older Nvidia ION was not even capable of running the 1920x1080 MPEG4 decoding test.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusions:3076c725bae217a7f64d8c72726ed416&#34;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The ZBOX ID80 is a great looking box that serves well in the living room.  It stays plenty quiet although it does use a little more power than my old Nvidia ION.  Nevertheless, this system still uses much less energy than most desktops and makes a nice addition to any HDTV.&lt;/p&gt;
+
+&lt;h2 id=&#34;advantages:3076c725bae217a7f64d8c72726ed416&#34;&gt;Advantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quiet&lt;/li&gt;
+&lt;li&gt;Small&lt;/li&gt;
+&lt;li&gt;Powerful graphics for Media center&lt;/li&gt;
+&lt;li&gt;Media Remote Control with IR extender&lt;/li&gt;
+&lt;li&gt;Plenty of ports (USB 2.0/3.0, 6-in-1 Card Reader, HDMI, DVI&lt;/li&gt;
+&lt;li&gt;Easy opening for addition of Hard Drive and RAM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;disadvantages:3076c725bae217a7f64d8c72726ed416&#34;&gt;Disadvantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not the most efficient HTPC&lt;/li&gt;
+&lt;li&gt;Gets a little too warm at times&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>2009 HTPC components and specs</title>
+      <link>http://knurdtech.com/2009-htpc-components-and-specs/</link>
+      <pubDate>Sun, 02 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/2009-htpc-components-and-specs/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Motherboard: ASUS AT3N7A-I $155&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;RAM: PQI Turbo 4GB (2 x 2GB) DDR2 800 $50&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;HD: Western Digital Caviar Blue 320 GB 7200 SATA $50&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Case: APEX MI-008 Mini-ITX $40&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Case fan: Yate Loon Low Speed 120mm (28dBa,47CFM) $4&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PSU: picoPSU-90 $33 and 80W AC-DC power brick $25&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Cheap DVD burner&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Free copy of Ubuntu!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I set out to create a low power living room computer capable of smooth HD playback.  This system was built in September of &amp;lsquo;09 and has been running in the living room almost non-stop since then.  So here is a follow-up on what I like and where I went wrong.&lt;/p&gt;
+
+&lt;p&gt;The best choice for a low power HD capable ITX motherboard was (and possibly still is) based on an ION 330.  At the time I was teetering between the ASUS and a Zotac IONITX-A-U.  The Zotac has an included 90-watt power supply and wireless-N but no PCI slots.  The ASUS has bluetooth but lacks wireless or power supply.  Wish I purchased the Zotac.&lt;/p&gt;
+
+&lt;p&gt;The ASUS CPU fan is not quiet.  The built-in bluetooth will not work with current drivers.  The case rattles if I wedge the 120mm fan in the side.  Regardless, I love this little thing!  It&amp;rsquo;s not loud enough to be annoying (with chassis open and 120mm fan resting on top).  Plus it plays videos flawlessly and uses very little power.  I used XBMC on it for awhile but favor Boxee much more lately.  The apps that come with Boxee are great and the user interface is pretty darn good as well.  For now the whole thing works well.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

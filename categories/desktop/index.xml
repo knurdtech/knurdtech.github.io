@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desktop on Knurdtech</title>
+    <link>http://knurdtech.com/categories/desktop/</link>
+    <description>Recent content in Desktop on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jun 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/categories/desktop/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Memories without much Memory</title>
+      <link>http://knurdtech.com/memories-without-memory/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/memories-without-memory/</guid>
+      <description>&lt;p&gt;Unless you feel nostalgic and want to take a ride down memory lane, stop reading now. This post is just reminiscing on old computers from the past.&lt;/p&gt;
+
+&lt;p&gt;So I ran across the receipts for computer builds previous to my &lt;a href=&#34;http://knurdtech.com/cheap-desktop-upgrade&#34;&gt;cheap desktop upgrade&lt;/a&gt; and had a good laugh.  This actually started in an effort to find details about my current PSU&amp;hellip;which is almost the only detail missing.&lt;/p&gt;
+
+&lt;p&gt;To start with the recent desktop upgrade replaced an Abit KV8 Pro Socket 754 motherboard ($80) with an AMD Sempron 2800+ 1.6 GHz &amp;ldquo;Palermo&amp;rdquo; CPU ($87).  Memory configuration was 1 GB of Corsair DDR400 (PC3200) CAS2.5 &amp;ldquo;value select&amp;rdquo; ($92).  This looks like another build that was supposed to receive an upgrade and never did.  These parts were ordered March 30, 2005.  The graphics were provided by a Leaktek GeForce A6200 with 128 MB DDR ($125).  According to notes it was unlocked to a 6600 with all eight pixel pipelines!  Also at that time a 200 GB Ultra ATA/133 7200 RPM hard drive with 8 MB buffer cost $110 and an NEC ND-3520A 16x Double Layer DVD+-RW cost $66.  Total cost $560 but that is missing case and power supply.&lt;/p&gt;
+
+&lt;p&gt;Before that was a build around the end of August 2000 which included an Abit KT7-RAID ($164) and AMD 700 Thunderbird Socket-A CPU ($146).  A full ATX Apex case with 300 watt power supply for $62.  128 MB Mushkin &amp;ldquo;high performance&amp;rdquo; revision 2 PC133 RAM ($194).  Buckle up it starts getting crazy!  Creative 3D Blaster Annihilator 2 (video graphics) at $249 displaying to a 17&amp;rdquo; Viewsonic PF775 monitor ($314).  Then a Creative Live Platinum 102 sound card ($165) pumping sound to Creative Fourpoint FPS2000 digital surround speakers ($117).  Also at the time an IBM 30 GB ATA/100 cost $139 (multiply by two for RAID) and a Pioneer 16x DVD rang in at $122.  Case fans and a CPU cooler added another $22.  The staggering total (after $122 of separate shipping costs) was just $1955.  Holy crap!&lt;/p&gt;
+
+&lt;p&gt;RAM prices fell by April of 2001 which led to an additional purchase of 256 MB (yes, it was up to 384 MB total) for $103.  Also according to notes the included PSU failed in that same month leading to a replacement $76 Turbo-Cool 300 ATX.  That &amp;ldquo;Thunder-bird&amp;rdquo; was up to $2134 by then.  Makes computers seem cheap nowadays.&lt;/p&gt;
+
+&lt;p&gt;The very last receipt found was for a build at the end of October 1998.  Oh joyous me.  This technology is so old it will just be a quick run through.  VIA VP-3 AGP P5 motherboard with AMD K6-&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;300&lt;/sub&gt; MMX CPU combo ($225).  An astounding 64 MB of PC100 SDRAM ($89).  Matrix Millennium G200 8MB AGP video card ($115) and a PCI sound card ($39).  Brought together with a 10.1 GB IDE hard drive ($249) and a 1.44 MB floppy drive ($18).  Remember those things?  Oh the precious, expensive memories (no pun intended).  Now officially digitized on my blog&amp;hellip;these relics are heading for the recycle bin.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cheap desktop upgrade</title>
+      <link>http://knurdtech.com/cheap-desktop-upgrade/</link>
+      <pubDate>Fri, 21 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/cheap-desktop-upgrade/</guid>
+      <description>&lt;p&gt;Finally bit the bullet and did a minor upgrade.  After exhaustive research I settled for a very low end system that is still two to four times faster than my old hardware.  More on that in a bit.  So without further ado, here are the parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ASUS M4A785TD-V EVO AM3 AMD 785G - $100&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;G.SKILL ECO Series 4GB (2 x 2GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) - $120&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AMD Sempron 140 Sargas 2.7GHz Socket AM3 45W Single-Core Processor - $33&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All other parts were reused from my old system plus a SATA HDD that was lying around.  The budget was $300 which I could have come closer to but I&amp;rsquo;m happy with these choices to hold me over.&lt;/p&gt;
+
+&lt;p&gt;Memory prices have increased a lot.  September 2009 had four gigs of memory hovering around $50.  This was by far the biggest expense but one not worth skimping on.  DDR3 was basically a starting point for all other parts.  The &amp;ldquo;eco&amp;rdquo; series basically runs at a lower voltage for more energy efficiency.  Now on to a motherboard and CPU that would support it.&lt;/p&gt;
+
+&lt;p&gt;Intel&amp;rsquo;s Core &amp;ldquo;i&amp;rdquo; series are great CPUs but AMD still wins on a cost/performance basis.  AMD just released their &lt;sup&gt;880&lt;/sup&gt;&amp;frasl;&lt;sub&gt;890&lt;/sub&gt; series chipsets but they don&amp;rsquo;t add anything I need.  Since my old video card was AGP, it is now worthless in a new system.  So, something that is cheap but upgradeable with low-end graphics and dual-monitor support?  The 785G chipset!  It can easily be upgraded to better graphics later but works fine for now.  This was a really tough decision as a cheap Nvidia 210 or 220 would probably work better in Linux.&lt;/p&gt;
+
+&lt;p&gt;Then to top it all off, I gambled and got lucky.  The cheapest AM3 socket processor based on the &amp;ldquo;regor&amp;rdquo; core sometimes allows it to unlock to dual-core.  Mine does - basically turning it into an Athlon II X2 235e!  Granted, if you truly want dual-core you should spend the extra 25-30 bucks to get it guaranteed.  But I was already buying twice my old speed (Socket 754 Sempron 2800+ &amp;ldquo;Palermo&amp;rdquo;) with a chance of multitasking&amp;hellip;can&amp;rsquo;t complain either way.  Again, this is easily a part that can be upgraded/replaced later for a quad (or even hexa) core processor.  The goal of this system was simply a cheap upgrade with room to grow.&lt;/p&gt;
+
+&lt;p&gt;Update 06/22/2011: Looking to build now?  Get an AM3+ socket motherboard for compatibility with the new Bulldozer/Zambezi processors.  You can still keep it cheap by using an AM3 socket CPU for now.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

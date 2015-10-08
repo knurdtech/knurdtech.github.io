@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Knurdtech</title>
+    <link>http://knurdtech.com/post/</link>
+    <description>Recent content in Posts on Knurdtech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://knurdtech.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Set up a computer for TV using OpenELEC</title>
+      <link>http://knurdtech.com/set-up-a-computer-for-tv-using-openelec/</link>
+      <pubDate>Wed, 06 Jun 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/set-up-a-computer-for-tv-using-openelec/</guid>
+      <description>&lt;p&gt;We previously reviewed a few options for an HTPC. So what is an HTPC? It stands for home theater personal computer and can have different requirements based on your needs. Some may also refer to it as a TV computer or a media center PC.&lt;/p&gt;
+
+&lt;p&gt;Regardless what you call it, the most basic requirement is for watching videos from a computer on a television (typically in high definition nowadays).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://openelec.tv/&#34;&gt;OpenELEC&lt;/a&gt; is a lightweight and easy to use XBMC media center distribution.  It takes the complications of a full operating system out of the picture and provides a nice interface for your media collection.&lt;/p&gt;
+
+&lt;p&gt;In addition, by only loading what is necessary, OpenELEC boots fast and does not use much memory.  We installed it to a 512 MB USB flash drive.  All our media is stored on a NAS (network attached storage) device or streamed from the internet hence the preference for a small USB stick.&lt;/p&gt;
+
+&lt;p&gt;Here is a quick video showing the full installation of OpenELEC.  Two USB drives are used.  Once the latest version of OpenELEC is &lt;a href=&#34;http://openelec.tv/get-openelec&#34;&gt;downloaded&lt;/a&gt; for your hardware, follow their &lt;a href=&#34;http://wiki.openelec.tv/index.php?title=Installation&#34;&gt;instructions&lt;/a&gt; to write it to a temporary flash drive.  We performed this step ahead of the video.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/f2u86QekgFE&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;During installation you will choose what media to install OpenELEC on (a hard drive or another flash drive).  Once installation is complete you can reformat and re-purpose the temporary flash drive as it should not be needed again.  As stated in the video, any cheap flash drive will work for the temporary installation files but you are better off using a decent flash drive (or hard drive) for final installation.&lt;/p&gt;
+
+&lt;p&gt;We now have an almost working HTPC.  The only thing that needs tweaking are the sound settings.  The following video shows how to enable sound on the &lt;a href=&#34;{% post_url 2012-05-07-intel-atom-d2700-htpc-review %}&#34;&gt;ZBOX ID80&lt;/a&gt;.  Using another computer on the same network, map to your HTPC (&amp;rdquo;\\ipaddress\configfiles&amp;rdquo; where ipaddress is the IP address of your OpenELEC which can be found on the System info → Summary screen in XBMC).  Copy the sound settings from &lt;a href=&#34;http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80&#34;&gt;http://wiki.openelec.tv/index.php?title=Config_sound_zotac_id80&lt;/a&gt; to a new file called asound.conf in the configfiles directory.&lt;/p&gt;
+
+&lt;iframe width=&#34;420&#34; height=&#34;315&#34; src=&#34;http://www.youtube.com/embed/WENWrBQFLz8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Now you just need media!  If you already have files on another computer just map to that directory from the XBMC media section.  Otherwise, try adding a few XBMC plug-ins to access on-line media.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VIA Nano X2 U4025 Review</title>
+      <link>http://knurdtech.com/via-nano-x2-u4025-review/</link>
+      <pubDate>Wed, 16 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/via-nano-x2-u4025-review/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/HTPCs_portend.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/HTPCs_portend.jpg&#34; alt=&#34;Three Zotac ZBOXs standing on ends&#34; /&gt;
+&lt;/a&gt;The ZBOX nano VD01 is the most difficult system to review.  Inside the only mini PC we tested from Zotac is a VIA Nano X2 U4025 processor with VX900 / Chrome9 graphics (pictured on right).&lt;/p&gt;
+
+&lt;p&gt;On paper it looks very promising with CPU specs that should outperform the Intel Atom D2700.  However, we&amp;rsquo;re more concerned with the graphics support and performance.&lt;/p&gt;
+
+&lt;h2 id=&#34;testing-setup:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Testing setup&lt;/h2&gt;
+
+&lt;p&gt;For this system we used a 256GB SSD with Windows 7 Home Premium and a 2GB 1066MHz DDR3 SO-DIMM module.&lt;/p&gt;
+
+&lt;p&gt;An Ubuntu installation was attempted but did not perform well.  VIA&amp;rsquo;s graphics support for Linux is horrendous and doesn&amp;rsquo;t appear to be improving.  Linux was tested with an Ubuntu graphics driver from Zotac&amp;rsquo;s website dated 4-Jan-2012.&lt;/p&gt;
+
+&lt;h2 id=&#34;technology:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;The dual core Nano X2 should be on-par with or slightly ahead of the dual core Atom with proper software support.  As we covered in our previous HTPC system reviews (&lt;a href=&#34;http://knurdtech.com/amd-e-450-review-linux-htpc/&#34;&gt;AMD&lt;/a&gt; and &lt;a href=&#34;http://knurdtech.com/intel-atom-d2700-htpc-review/&#34;&gt;Intel&lt;/a&gt;), graphics and hardware acceleration are the true requirements to complement a low-end CPU for HD video playback.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/Internal_Via.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/Internal_Via-300x255.jpg&#34; alt=&#34;Inside the ZBOX nano VD01&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;graphics-and-hardware-acceleration:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Graphics and Hardware Acceleration&lt;/h2&gt;
+
+&lt;p&gt;Theoretically the VX900 should provide 1080p video playback through hardware acceleration.  VIA claims support for H.264, MPEG-4, MPEG-2, VC-1, and Blu-ray to name a few.&lt;/p&gt;
+
+&lt;p&gt;In my testing, &lt;a href=&#34;http://www.videolan.org/vlc&#34;&gt;VLC media player&lt;/a&gt; did not perform well with a 1080p MKV nor did Windows Media Player with the DivX Plus Codec Pack.  However, XBMC for Windows played the same video file almost skip-free before either of those previous players were tested.&lt;/p&gt;
+
+&lt;h2 id=&#34;other-shortfalls:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Other Shortfalls&lt;/h2&gt;
+
+&lt;p&gt;Unlike the other systems tested, I was only able to get two USB ports working on a bare system which makes installing and running an OS from USB nearly impossible.  However, after installing Windows to an internal hard drive it is possible to load drivers for the two rear USB 3.0 ports and front facing card reader.&lt;/p&gt;
+
+&lt;p&gt;Which brings us to another shortfall&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;driver-hell:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Driver Hell&lt;/h3&gt;
+
+&lt;p&gt;Windows required numerous drivers from the Zotac website.  At the time of writing this, the Zbox VD01 drivers can be found at &lt;a href=&#34;http://www.zotacusa.com/downloads?cat=284#downloadscontent&#34;&gt;http://www.zotacusa.com/downloads?cat=284#downloadscontent&lt;/a&gt;.  I started with the Windows 7 64-bit graphics drivers to support the proper screen resolution.  Almost all other drivers were installed with the exception of the BIOS update which kept failing.&lt;/p&gt;
+
+&lt;h3 id=&#34;power-consumption:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Power Consumption&lt;/h3&gt;
+
+&lt;p&gt;Looking over the spec sheet I was expecting this box to put up very low power consumption numbers.  Yet it was pulling TDP figures anywhere from 18 all the way to 35 watts on occasion.  XBMC idled around 25 watts and Cinebench ran at 29-30 watts.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusion:75eb73ac3e876aa20f564d73e0ec0133&#34;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;The Zotac ZBOX VD01 runs too hot and uses too much power to be worth all the effort involved.  Initial research showed this might run cooler than the &lt;a href=&#34;http://knurdtech.com/amd-e-450-review-linux-htpc/&#34;&gt;AMD E-450&lt;/a&gt;.  However, the AMD wins in every category except price.  Some could argue it wins in that category as well&amp;hellip;considering what you get with the Nano X2.&lt;/p&gt;
+
+&lt;p&gt;It is the cheapest and smallest box out of the three Zotac&amp;rsquo;s just covered.  That might make it worthwhile to someone out there.  Expect many roadblocks while getting the VD01 working.  It may even reward you with HD video in the end.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>AMD E-450 Review - Linux HTPC</title>
+      <link>http://knurdtech.com/amd-e-450-review-linux-htpc/</link>
+      <pubDate>Wed, 09 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/amd-e-450-review-linux-htpc/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/Intel_vs_AMD.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/Intel_vs_AMD-300x226.jpg&#34; alt=&#34;Zotac Zbox ID80 and AD04 side-by-side&#34; /&gt;
+&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Inside the ZBOX-AD04-U is an AMD E-450 APU with onboard Radeon HD 6320 graphics.  We plan to compare it with Intel&amp;rsquo;s finest Atom processor (with Nvidia graphics) and see which wins as a media center computer.&lt;/p&gt;
+
+&lt;p&gt;To read more about the Zotac ZBOX in general see the post analyzing the Intel board &lt;a href=&#34;http://knurdtech.com/intel-atom-d2700-htpc-review/&#34;&gt;here&lt;/a&gt;.  This post will look at the AMD technology and benchmarks against the previously reviewed ID80.&lt;/p&gt;
+
+&lt;p&gt;We will also be featuring articles detailing the full setup of a Linux home theater PC (HTPC) and the benefits of a small computer attached to your television.&lt;/p&gt;
+
+&lt;h2 id=&#34;zotac-zbox-setup:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;ZOTAC ZBOX Setup&lt;/h2&gt;
+
+&lt;p&gt;Once again we installed a 120GB SSD and 2GB 1066MHz DDR3 SO-DIMM for benchmarking purposes.&lt;/p&gt;
+
+&lt;p&gt;You can usually secure a 2GB memory module for under $15 at &lt;a href=&#34;http://www.amazon.com/&#34;&gt;http://www.amazon.com/&lt;/a&gt; (just search for &amp;ldquo;so-dimm ddr3&amp;rdquo;).  This motherboard supports 1333MHz (PC3-10600) memory so make sure the memory you select is at least that fast.  A hard drive is not necessary which we will address in an upcoming post.  For this reason we do not suggest upgrading to the &amp;ldquo;PLUS&amp;rdquo; versions of any ZBOX.  However, if you do wish to install a hard drive make sure it is 2.5-inch (most SSDs and laptop drives are this size).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Notice&lt;/strong&gt; we used slower 1066MHz memory for these benchmarks.  Any benchmarks able to take advantage of faster 1333MHz data rate memory may score higher.&lt;/p&gt;
+
+&lt;h2 id=&#34;technology:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;AMD E-450 is a low power APU (accelerated processing unit) that combines a CPU and GPU on the same die.  However, while Intel fails to deliver good integrated graphics with any of their low-power Atom-based CPUs, AMD&amp;rsquo;s integrated graphics are worthy of high definition video.  The APU is rated at 18 watt TDP and since we do not have to add discrete graphics the overall system power consumption stays fairly close to that figure.&lt;/p&gt;
+
+&lt;p&gt;Overall system power varied from 17 watts while idle in Ubuntu 12.04 up to 28 watts while encoding videos.  The E-450 was only drawing 21-22 watts during the gaming benchmarks.  Across the board power was significantly down from the Atom/Nvidia combination.  Power figures are observed using a P3 &amp;ldquo;kill a watt&amp;rdquo; meter.&lt;/p&gt;
+
+&lt;h3 id=&#34;graphics-background-and-hardware-acceleration:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Graphics Background and Hardware Acceleration&lt;/h3&gt;
+
+&lt;p&gt;Graphics in the E-450 are handled by the integrated Radeon HD 6320.  Unlike the Radeon HD 6310 in the AMD E-350 APU, the HD 6320 supports higher bandwidth DDR3-1333 memory and turbo mode (graphics clock rate will speed up when requested).&lt;/p&gt;
+
+&lt;p&gt;Both the Radeon HD 6310 and 6320 support UVD 3.0.  UVD (Unified Video Decoder) is the video decoding engine AMD/ATI uses to support hardware decoding of H.264 and VC-1 high definition video codecs.  In Linux this is accomplished through the XvBA API with the use of the AMD linux driver (fglrx).  If all that went over your head, don&amp;rsquo;t worry&amp;hellip;there are versions of XBMC that are nice enough to take care of it for us.&lt;/p&gt;
+
+&lt;p&gt;You will notice two benchmarks of this AMD platform on the next page.  Ubuntu 12.04 does not install the AMD linux driver by default and instead relies on an open source video driver (referred to as &amp;ldquo;radeon&amp;rdquo;).  We decided to do the benchmarks on a base Ubuntu install followed by benchmarks with the AMD &amp;ldquo;fglrx&amp;rdquo; driver.  Again, this is only important if you install a version of Linux without AMD drivers out of the box.&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-features:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Additional Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High-Definition analog stereo&lt;/li&gt;
+&lt;li&gt;Optical Digital S/PDIF output&lt;/li&gt;
+&lt;li&gt;HDMI and DisplayPort video ports&lt;/li&gt;
+&lt;li&gt;HDMI-to-DVI adapter&lt;/li&gt;
+&lt;li&gt;802.11n/g/b wireless (WiFi)&lt;/li&gt;
+&lt;li&gt;Gigabit ethernet (hardwired internet connection)&lt;/li&gt;
+&lt;li&gt;2 x USB 3.0 and 4 x USB 2.0 ports&lt;/li&gt;
+&lt;li&gt;SD/SDHC/MMC/MS/MS Pro/xD Card Reader&lt;/li&gt;
+&lt;li&gt;Media Remote&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;benchmarks:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Benchmarks&lt;/h2&gt;
+
+&lt;p&gt;In addition to the Nvidia ION and Zbox ID80 from last time, we now have the AMD E-450 with open source drivers and AMD linux drivers.  Focus on the fglrx results as the radeon results are just here for reference.&lt;/p&gt;
+
+&lt;h3 id=&#34;system-configuration:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;System Configuration&lt;/h3&gt;
+
+&lt;p&gt;The AMD E-450 is using the same type and speed of RAM as the Intel Atom D2700.  This is unfortunate as the E-450 actually supports higher clocked RAM as mentioned earlier.&lt;/p&gt;
+
+&lt;h3 id=&#34;encoding-tests:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Encoding Tests&lt;/h3&gt;
+
+&lt;p&gt;First up are video and audio encoding tests.&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/e450_1.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_2.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_3.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_4.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_5.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;AMD actually wins in three out of five encoding tests.  Not bad considering it uses much less power while running the tests.&lt;/p&gt;
+
+&lt;h3 id=&#34;gaming-benchmarks:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Gaming Benchmarks&lt;/h3&gt;
+
+&lt;p&gt;HTPCs are not built for gaming but these tests give us an idea of GPU performance.  OpenArena uses the ioquake3 game engine while Xonotic uses a heavily modified version of the Quake engine called &amp;ldquo;DarkPlaces.&amp;rdquo;&lt;/p&gt;
+
+&lt;h4 id=&#34;openarena:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;OpenArena&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/e450_6.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_7.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_10.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_13.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;AMD falls short in OpenArena against the Atom D2700 but at least does marginally better than the older Atom 330 / Nvidia 9400M combo in most cases.&lt;/p&gt;
+
+&lt;h4 id=&#34;xonotic:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Xonotic&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/e450_28.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_32.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_36.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/e450_40.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The E-450 fairs much better in Xonotic and even bests the D2700 in some scenarios.&lt;/p&gt;
+
+&lt;h3 id=&#34;xvba:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;XvBA&lt;/h3&gt;
+
+&lt;p&gt;X-Video Bitstream Acceleration is the interface AMD uses for hardware acceleration with Radeon and Fusion graphics processors.  Unfortunately, the Phoronix Test Suite we&amp;rsquo;re using does not have a benchmark for this.  Therefore, we don&amp;rsquo;t have any results similar to the VDPAU video viewing tests that were run with the Nvidia graphics.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusions:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The ZBOX AD04 has the looks and all the right features for the living room.  It remains quiet and uses very little power.  Hardware acceleration still isn&amp;rsquo;t perfect in the AMD / Linux world but it has come a long way and gets my recommendation.  If you plan to use Windows for your HTPC it &lt;em&gt;should&lt;/em&gt; have even better hardware acceleration support out of the box.&lt;/p&gt;
+
+&lt;h2 id=&#34;advantages:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Advantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quiet and Efficient&lt;/li&gt;
+&lt;li&gt;Small&lt;/li&gt;
+&lt;li&gt;Great graphics for Media center&lt;/li&gt;
+&lt;li&gt;Media Remote Control with IR extender&lt;/li&gt;
+&lt;li&gt;Plenty of ports (USB 2.0/3.0, 6-in-1 Card Reader, HDMI, DisplayPort)&lt;/li&gt;
+&lt;li&gt;Easy opening for addition of Hard Drive and RAM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;disadvantages:7240b7a22de436f113d4997e9e1da7a2&#34;&gt;Disadvantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Minor configuration required&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Intel Atom D2700 - HTPC Review</title>
+      <link>http://knurdtech.com/intel-atom-d2700-htpc-review/</link>
+      <pubDate>Mon, 07 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/intel-atom-d2700-htpc-review/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/ZBox_wRemote_CleanBackground.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/ZBox_wRemote_CleanBackground.jpg&#34; alt=&#34;ZBOX ID80 and remote&#34; /&gt;
+&lt;/a&gt;The ZBOX-ID80-U sports an Intel Atom D2700 processor and onboard Nvidia GeForce GT 520M graphics in a small package.  Does the latest and greatest Intel Atom work well as a Home Theater PC &amp;ldquo;HTPC&amp;rdquo; or Media Center computer?&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s take a look at the &amp;ldquo;ZBOX&amp;rdquo; package, the technology inside, and wrap-up with some benchmarks.&lt;/p&gt;
+
+&lt;h2 id=&#34;zotac-zbox-lineup:3076c725bae217a7f64d8c72726ed416&#34;&gt;ZOTAC ZBOX Lineup&lt;/h2&gt;
+
+&lt;p&gt;The ZBOX typically comes in three size flavors. I&amp;rsquo;ll refer to this size as a mini PC measuring (in inches) 7.4 x 7.4 x 1.73. It is small enough to fit just about anywhere and also supports attachment to VESA mounts. A VESA mount or Flat Display Mounting Interface is the standard used on monitors or TVs when mounting to a wall stand. So if you have available mounting holes (i.e. your TV is not already hanging from a wall) then a ZBOX mini-PC can attach to your TV.&lt;/p&gt;
+
+&lt;p&gt;The other two sizes are the ZBOX nano and Blu-ray versions. The nano is the smallest in the lineup which carries the disadvantage of more heat build up. While the Blu-ray versions obviously support Blu-ray disks.  Personally, I rarely use DVDs or Blu-rays in my HTPC.  I prefer to backup disks using a more powerful computer and use the HTPC to play that file in the living room.&lt;/p&gt;
+
+&lt;p&gt;ZOTAC also sells two versions of each box.  A regular version with no hard drive or RAM and a &amp;ldquo;PLUS&amp;rdquo; version that includes both.  However, even the PLUS version arrives without an OS installed.  We received the base version and installed a 120GB SSD and 2GB DDR3 SO-DIMM for benchmarking purposes.&lt;/p&gt;
+
+&lt;p&gt;You can buy a compatible 2GB memory module for under $15 at &lt;a href=&#34;http://www.amazon.com/&#34;&gt;http://www.amazon.com/&lt;/a&gt; (just search for &amp;ldquo;so-dimm ddr3&amp;rdquo;).  This motherboard supports 1066MHz (PC3-8500) memory so make sure the memory you select is at least that fast.  A hard drive is not even necessary which we will address in an upcoming post.  For this reason we do not suggest upgrading to the &amp;ldquo;PLUS&amp;rdquo; versions of any ZBOX.  However, if you do wish to install a hard drive make sure it is 2.5-inch (most SSDs and laptop drives are this size).&lt;/p&gt;
+
+&lt;h2 id=&#34;technology:3076c725bae217a7f64d8c72726ed416&#34;&gt;Technology&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://knurdtech.com/images/2012/05/ZBOX_ID80_Internal.jpg&#34;&gt;&lt;img src=&#34;http://knurdtech.com/images/2012/05/ZBOX_ID80_Internal-266x300.jpg&#34; alt=&#34;Inside the ZBOX ID80&#34; /&gt;
+&lt;/a&gt;Intel&amp;rsquo;s third-generation &amp;ldquo;Cedarview&amp;rdquo; Atom finally sheds the 45 nm fabrication for a more efficient 32 nm processor.  TDP for the D2700 and the Intel NM10 Express chipset are stated to be around 10 watts.  That includes built-in PowerVR SGX 545 graphics which are disabled on the ID80 in favor of a dedicated GeForce GT 520M with 512 MB memory.&lt;/p&gt;
+
+&lt;p&gt;Since the ID80 uses a dedicated graphics card, power consumption goes up.  The best estimate I could find on the graphics card was 12 watts.  However, during benchmarking the kill-a-watt meter registered as high as 45 watts total.  More common was 36 watts while in XBMC and even less while watching videos in 1080p High Definition.&lt;/p&gt;
+
+&lt;h3 id=&#34;graphics-background-and-hardware-acceleration:3076c725bae217a7f64d8c72726ed416&#34;&gt;Graphics Background and Hardware Acceleration&lt;/h3&gt;
+
+&lt;p&gt;Pairing Intel Atom with Nvidia graphics is still a huge graphics upgrade. Towards the end of 2013 this &lt;strong&gt;may&lt;/strong&gt; no longer be the case as Intel plans to integrate Ivy Bridge graphics with the Intel Atom. Until then it is still best to avoid Intel graphics in the low-power HTPC field.&lt;/p&gt;
+
+&lt;p&gt;Intel&amp;rsquo;s first generation Atom &lt;a href=&#34;http://en.wikipedia.org/wiki/Nettop&#34;&gt;nettop&lt;/a&gt; processors did not include an on-die GPU. However, if the motherboard uses the Intel 945GC/945GSE chipset then it has an integrated GMA 950 GPU. Nvidia then stepped in by creating the first ION platform to finally provide the Atom with respectable graphics (and 1080p playback) via the GeForce 9400M. Read more about it &lt;a href=&#34;http://knurdtech.com/2009-htpc-components-and-specs/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The second generation Atom added graphics onto the CPU with Intel&amp;rsquo;s own GMA 3150 which is still not capable of 1080p playback and does not have VC-1 or AVC hardware acceleration built-in. Again, Nvidia released an ION platform (Next Generation ION or ION 2) but because of the chipset limitations it was also a step back in some ways. The Nvidia GeForce G210M is still a nice improvement over Intel&amp;rsquo;s graphics but the available bandwidth to Nvidia went down. Since Intel switched over to a proprietary DMI connection, Nvidia has to provide dedicated graphics through a PCIe 1.1 lane (as opposed to directly integrating graphics with the first generation ION). However, 1080p playback was once again supported with very capable hardware acceleration.&lt;/p&gt;
+
+&lt;p&gt;Current generation Atom also has graphics built-in. This time Intel selected a PowerVR SGX 545 GPU (a.k.a. Intel GMA 3650) which you may recognize as a popular graphics solution in recent smart phones. Theoretically it should be an improvement as now hardware acceleration of VC-1 and AVC videos are supported. In practice this is not always the case. For Linux users this is still a loss as Imagination Technologies (makers of PowerVR) does not support the open-source community very well. Initial testing even shows the PowerVR is not supported well in Windows.&lt;/p&gt;
+
+&lt;p&gt;Fortunately the Zotac ZBOX ID80 uses a GeForce GT 520M for graphic duties which proves more than capable.&lt;/p&gt;
+
+&lt;h2 id=&#34;additional-features:3076c725bae217a7f64d8c72726ed416&#34;&gt;Additional Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;High-Definition analog stereo&lt;/li&gt;
+&lt;li&gt;Optical Digital S/PDIF output&lt;/li&gt;
+&lt;li&gt;HDMI and Dual-link DVI video ports&lt;/li&gt;
+&lt;li&gt;802.11n/g/b wireless (WiFi)&lt;/li&gt;
+&lt;li&gt;Gigabit ethernet (hardwired internet connection)&lt;/li&gt;
+&lt;li&gt;2 x USB 3.0 and 4 x USB 2.0 ports&lt;/li&gt;
+&lt;li&gt;SD/SDHC/MMC/MS/MS Pro/xD Card Reader&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;benchmarks:3076c725bae217a7f64d8c72726ed416&#34;&gt;Benchmarks&lt;/h2&gt;
+
+&lt;p&gt;Let us compare this Intel Atom / Nvidia GPU configuration to the first generation Nvidia ION (dual-core Atom 330 with Nvidia 9400M GPU) which has been handling my HTPC workload for the past couple years.  The benchmark images are in SVG format.  If your browser can&amp;rsquo;t see them, get a new browser!&lt;/p&gt;
+
+&lt;h3 id=&#34;system-configuration:3076c725bae217a7f64d8c72726ed416&#34;&gt;System Configuration&lt;/h3&gt;
+
+&lt;p&gt;&lt;embed src=&#34;http://knurdtech.com/images/2012/05/systems.svg&#34; type=&#34;image/svg+xml&#34; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The only difference between the test configurations is the type of RAM since my old Atom uses DDR2 DIMMs and the new chipset uses DDR3 SO-DIMMs (laptop memory).&lt;/p&gt;
+
+&lt;h3 id=&#34;encoding-tests:3076c725bae217a7f64d8c72726ed416&#34;&gt;Encoding Tests&lt;/h3&gt;
+
+&lt;p&gt;First up are video and audio encoding tests.&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/1.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/2.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/3.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/4.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/5.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;CPU performance has increased by a decent amount across the board.&lt;/p&gt;
+
+&lt;h3 id=&#34;gaming-benchmarks:3076c725bae217a7f64d8c72726ed416&#34;&gt;Gaming Benchmarks&lt;/h3&gt;
+
+&lt;p&gt;Granted, HTPCs are not built for gaming but these tests give us an idea of GPU performance.  OpenArena uses the ioquake3 game engine while Xonotic uses a heavily modified version of the Quake engine called &amp;ldquo;DarkPlaces.&amp;rdquo;&lt;/p&gt;
+
+&lt;h4 id=&#34;openarena:3076c725bae217a7f64d8c72726ed416&#34;&gt;OpenArena&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/6.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/7.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/10.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/13.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The ZBOX finally fell below 30 fps in OpenArena after posting 30.03 fps at 1400 x 1050 resolution.&lt;/p&gt;
+
+&lt;h4 id=&#34;xonotic:3076c725bae217a7f64d8c72726ed416&#34;&gt;Xonotic&lt;/h4&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/28.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/32.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/36.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/40.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Neither box was able to clear 30 fps in Xonotic at &amp;ldquo;Ultra&amp;rdquo; quality so these are the &amp;ldquo;High&amp;rdquo; results.  The GeForce GT 520M is definitely an improvement over the GeForce 9400M used in the Nvidia ION.&lt;/p&gt;
+
+&lt;h3 id=&#34;vdpau:3076c725bae217a7f64d8c72726ed416&#34;&gt;VDPAU&lt;/h3&gt;
+
+&lt;p&gt;And finally some tests for viewing videos.  VDPAU (Video Decode and Presentation API for Unix) is a library used to support decoding on the graphics card instead of relying on the CPU.  Using a GPU for decoding is always more efficient and absolutely required when viewing High Definition videos on a CPU this weak.  These are the most relevant to an HTPC using Nvidia graphics as the VDPAU library was designed by Nvidia.&lt;/p&gt;
+
+&lt;p&gt;&lt;object data=&#34;/images/2012/05/vdpau1.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau2.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau3.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau4.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;
+&lt;object data=&#34;/images/2012/05/vdpau5.svg&#34; type=&#34;image/svg+xml&#34;&gt;&lt;/object&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The older Nvidia ION was not even capable of running the 1920x1080 MPEG4 decoding test.&lt;/p&gt;
+
+&lt;h2 id=&#34;conclusions:3076c725bae217a7f64d8c72726ed416&#34;&gt;Conclusions&lt;/h2&gt;
+
+&lt;p&gt;The ZBOX ID80 is a great looking box that serves well in the living room.  It stays plenty quiet although it does use a little more power than my old Nvidia ION.  Nevertheless, this system still uses much less energy than most desktops and makes a nice addition to any HDTV.&lt;/p&gt;
+
+&lt;h2 id=&#34;advantages:3076c725bae217a7f64d8c72726ed416&#34;&gt;Advantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quiet&lt;/li&gt;
+&lt;li&gt;Small&lt;/li&gt;
+&lt;li&gt;Powerful graphics for Media center&lt;/li&gt;
+&lt;li&gt;Media Remote Control with IR extender&lt;/li&gt;
+&lt;li&gt;Plenty of ports (USB 2.0/3.0, 6-in-1 Card Reader, HDMI, DVI&lt;/li&gt;
+&lt;li&gt;Easy opening for addition of Hard Drive and RAM&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;disadvantages:3076c725bae217a7f64d8c72726ed416&#34;&gt;Disadvantages&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Not the most efficient HTPC&lt;/li&gt;
+&lt;li&gt;Gets a little too warm at times&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nokia Lumia Comparison - Lumia 710, 800, and 900</title>
+      <link>http://knurdtech.com/nokia-lumia-comparison-lumia-710-800-and-900/</link>
+      <pubDate>Fri, 02 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/nokia-lumia-comparison-lumia-710-800-and-900/</guid>
+      <description>
+
+&lt;h3 id=&#34;features-they-have-in-common:16be26762203e3ee2f88d30baf8e45f5&#34;&gt;Features they have in common:&lt;/h3&gt;
+
+&lt;p&gt;Nokia is making a new run at the US market with the Windows Phone 7 &amp;ldquo;Mango&amp;rdquo; OS. While Nokia is very well known in other countries for building quality phones, it has been awhile since they have had an impact in the states. We are analyzing the differences between the Lumia 710, Lumia 800, and soon to be released Lumia 900. First up, what they all have in common.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Processor: 1.4 GHz Snapdragon S2&lt;/li&gt;
+&lt;li&gt;Graphics: Qualcomm Adreno 205&lt;/li&gt;
+&lt;li&gt;Memory: 512 MB SDRAM&lt;/li&gt;
+&lt;li&gt;Screen: Capacitive touch with ClearBlack technology and Gorilla glass&lt;/li&gt;
+&lt;li&gt;Resolution: 480 x 800 WVGA&lt;/li&gt;
+&lt;li&gt;Camera: All include a rear facing camera with autofocus though the specs vary&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;nokia-lumia-710:16be26762203e3ee2f88d30baf8e45f5&#34;&gt;Nokia Lumia 710&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Display: 3.7 inch TFT LCD&lt;/li&gt;
+&lt;li&gt;Camera: 5 MP with f/2.4 aperture and single LED flash&lt;/li&gt;
+&lt;li&gt;Battery: 1300 mAh capable of 7 hours talk, 400 h standby, 38 h music playback, or 5.5 h video playback&lt;/li&gt;
+&lt;li&gt;Mass memory (storage): 8 GB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;nokia-lumia-800:16be26762203e3ee2f88d30baf8e45f5&#34;&gt;Nokia Lumia 800&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Display: 3.7 inch AMOLED PenTile&lt;/li&gt;
+&lt;li&gt;Camera: 8 MP Carl Zeiss optics with f/2.2 aperture and dual LED flash&lt;/li&gt;
+&lt;li&gt;Battery: 1450 mAh capable of 9.5 hours talk, 335 h standby, 55 h music playback, or 6.5 h video playback&lt;/li&gt;
+&lt;li&gt;Mass memory (storage): 16 GB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;nokia-lumia-900:16be26762203e3ee2f88d30baf8e45f5&#34;&gt;Nokia Lumia 900&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Display: 4.3 inch AMOLED RGB&lt;/li&gt;
+&lt;li&gt;Data: 4G LTE&lt;/li&gt;
+&lt;li&gt;Camera (rear): 8 MP same specs as Lumia 800&lt;/li&gt;
+&lt;li&gt;Camera (front): 1 MP for video calling&lt;/li&gt;
+&lt;li&gt;Battery: 1830 mAh capable of 7 hours talk, 300 h standby, 60 h music playback, or 6.5 h video playback&lt;/li&gt;
+&lt;li&gt;Mass memory (storage): 16 GB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;summary-and-conclusions:16be26762203e3ee2f88d30baf8e45f5&#34;&gt;Summary and Conclusions&lt;/h3&gt;
+
+&lt;p&gt;The Lumia 710 has a different body style than the &lt;sup&gt;800&lt;/sup&gt;&amp;frasl;&lt;sub&gt;900&lt;/sub&gt;. The Lumia 800 copies the Nokia N9 while the Lumia 900 looks similar but grows for the bigger screen.&lt;/p&gt;
+
+&lt;p&gt;Going from the Lumia 710 to Lumia 800 gains better looks (opinion), slightly better camera, a little bigger battery, and 8 GB additional storage. The extra storage may be important since none of these phones have an SD slot.&lt;/p&gt;
+
+&lt;p&gt;Moving from the Lumia 800 to the Lumia 900 you basically gain screen size, a front facing camera, and 4G LTE support. The larger battery benefit is mostly negated by the increased battery usage of the larger screen and possibly LTE. Although the screen resolution remains the same, the lack of PenTile subpixels makes it more clear on the larger display.&lt;/p&gt;
+
+&lt;p&gt;Ultimately it comes down to: Does a Windows Phone work for you?  Let me know!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Symbian Belle experience on Nokia 701</title>
+      <link>http://knurdtech.com/symbian-belle-experience-nokia-701/</link>
+      <pubDate>Mon, 20 Feb 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/symbian-belle-experience-nokia-701/</guid>
+      <description>
+
+&lt;h3 id=&#34;importing-contacts-from-android:d6754a4efc00ca2ed2a11e2a0ff8c621&#34;&gt;Importing Contacts from Android:&lt;/h3&gt;
+
+&lt;p&gt;Nokia only provides directions to copy contacts over from another Nokia phone. However, importing contacts by other methods is quite easy. Here we are using a generic .vcf import that works well coming from an Android device.&lt;/p&gt;
+
+&lt;h4 id=&#34;liberating-your-contacts-from-google:d6754a4efc00ca2ed2a11e2a0ff8c621&#34;&gt;Liberating your contacts from Google&lt;/h4&gt;
+
+&lt;p&gt;First, make sure your Android contacts are synced with your phone&amp;rsquo;s Google account. Most people leave sync enabled but you may check by going to&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Then sign into your Google account from a computer (signing into Gmail will accomplish this). Now paste the following in your address bar: &lt;a href=&#34;https://www.google.com/takeout/#custom:contacts&#34;&gt;https://www.google.com/takeout/#custom:contacts&lt;/a&gt;. (If you want to find it the long way, drop down from your email and select account settings. In account settings, select &amp;ldquo;data liberation&amp;rdquo;, then &amp;ldquo;download your data&amp;rdquo;, followed by &amp;ldquo;choose services.&amp;rdquo; For our purposes, all we need are contacts.)&lt;/p&gt;
+
+&lt;p&gt;The file downloads as a compressed .zip file. Use your preferred extraction tool (download 7-zip if you need one) to extract all .vcf files with contact data. In my case this was only one file &amp;ldquo;My Contacts.vcf&amp;rdquo;.&lt;/p&gt;
+
+&lt;h4 id=&#34;importing-contacts-to-nokia-belle:d6754a4efc00ca2ed2a11e2a0ff8c621&#34;&gt;Importing contacts to Nokia Belle&lt;/h4&gt;
+
+&lt;p&gt;Now mount your Symbian phone to the computer in &amp;ldquo;Mass storage&amp;rdquo; mode and copy your .vcf contact file(s) to E: Mass memory -&amp;gt; Other -&amp;gt; Contacts. Note: I did try putting this file in other places and it was not recognized.&lt;/p&gt;
+
+&lt;p&gt;Almost done. Simply open Contacts, tap the options menu in lower right -&amp;gt; Copy contact card -&amp;gt; From other memory. That&amp;rsquo;s it! Your Nokia phone should have all your contacts now.&lt;/p&gt;
+
+&lt;h3 id=&#34;nokia-message-indicator-won-t-stop-blinking:d6754a4efc00ca2ed2a11e2a0ff8c621&#34;&gt;Nokia message indicator won&amp;rsquo;t stop blinking&lt;/h3&gt;
+
+&lt;p&gt;The manual is pretty worthless here as it only states &amp;ldquo;if the message indicator is blinking, your Inbox folder may be full.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;A quick search reveals the cause to lie in messages stored on your SIM card (left over from your old phone). A relatively simple fix although a little hidden in the menus. Open messaging -&amp;gt; options -&amp;gt; View folders -&amp;gt; options -&amp;gt; SIM messages. Now delete all those messages and your indicator should stop flashing.&lt;/p&gt;
+
+&lt;h3 id=&#34;using-contacts-on-belle:d6754a4efc00ca2ed2a11e2a0ff8c621&#34;&gt;Using contacts on Belle&lt;/h3&gt;
+
+&lt;p&gt;So refreshing. Select a contact and Belle presents all contact methods for that person.&lt;/p&gt;
+
+&lt;p&gt;Use certain contacts frequently? Assign those people as favorites and they always appear at the top of the contact list. You can also assign contacts as shortcuts or to a contact widget on one of your home screens.&lt;/p&gt;
+
+&lt;p&gt;In a follow up post, I will add social network integration and evaluate configuration options. Of course I will test out the VOIP / SIP integration as well. Nokia usually shines in that area.&lt;/p&gt;
+
+&lt;p&gt;UPDATE 7/20/12: After using Nokia Belle for a few months, I can no longer recommend it. When it works it is fine but all too often it either freezes or behaves incorrectly. Unfortunately this leaves me with no favorite mobile OS. I&amp;rsquo;m also not a fan of Android, iOS, or Windows Phone 7 in their current states (although I can at least live with Android).&lt;/p&gt;
+
+&lt;p&gt;My hope is that Blackberry 10, currently slated for a 2013 release, or Windows Phone 8 will make major strides &lt;strong&gt;OR&lt;/strong&gt; that Jolla (a company consisting of former Nokia employees) beats the odds and does something amazing with the MeeGo platform.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Asus RT-N56U review</title>
+      <link>http://knurdtech.com/asus-rt-n56u-review/</link>
+      <pubDate>Wed, 28 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/asus-rt-n56u-review/</guid>
+      <description>&lt;p&gt;Features: 802.11n, dual-band (2.4 and 5 GHz), gigabit ethernet ports, and high throughput.&lt;/p&gt;
+
+&lt;p&gt;With enough 802.11n products around the house (laptop, tablet, and phone) it was time to update the router. After reading many reviews the &lt;a href=&#34;http://www.google.com&#34;&gt;ASUS RT-N56U&lt;/a&gt; won the honors. It is capable of extremely high total simultaneous throughput which suggests good processing power and build quality. You can also set up separate wireless SSIDs for the 2.4 and 5 GHz radios.&lt;/p&gt;
+
+&lt;p&gt;Setup was fairly straightforward other than having to fight the 2wire u-verse gateway to allow a router behind it (instructions for that &lt;a href=&#34;http://forums.att.com/t5/Residential-Gateway/U-verse-for-BUSINESS-2Wire-3600HGV-bridge-mode-or-another-AT-amp/m-p/2707755#M182&#34;&gt;here&lt;/a&gt;). Currently taking advantage of 3 of the 4 gigE ports (desktop, HTPC, and NAS), three devices on 2.4 GHz, and one device on 5 GHz with absolutely no problems. The HTPC is currently sharing at 100 Mbit/s but that needs to be addressed separately as it has nothing to do with the router.&lt;/p&gt;
+
+&lt;p&gt;The ASUS RT-N56U is a great piece of hardware. It&amp;rsquo;s a very capable wireless home router with just the right amount of features at a reasonable cost. At the time of this writing it can be had for around $130. Sure, there are cheaper 802.11n wireless routers out there but not with the same features and speed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VMware vs VirtualBox - Running Windows 7 on Linux host</title>
+      <link>http://knurdtech.com/vmware-vs-virtualbox-running-windows-7-linux-host/</link>
+      <pubDate>Thu, 14 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/vmware-vs-virtualbox-running-windows-7-linux-host/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;VMware Player 3.1.4 and Oracle VM VirtualBox 4.0.10 - An initial review of two free virtual machines.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A virtual machine allows basically any guest OS to run within a host OS.  In this case running Windows 7 (guest OS) inside Ubuntu 10.04 (host OS).  It can also be useful for testing various distributions of Linux.  The goal is to find the best virtual machine for Linux.&lt;/p&gt;
+
+&lt;p&gt;As a quick background, I currently bounce between two computers: a desktop with Ubuntu 10.04 and a laptop with ArchBang.  On occasion I can not avoid requiring Windows.  Which leaves three options: setting up a dual-boot, running a virtual machine, or using a compatibility layer such as &lt;a href=&#34;http://www.winehq.org/&#34;&gt;Wine&lt;/a&gt;.  The third being the only completely &lt;em&gt;gratis&lt;/em&gt; (free as in beer) and &lt;em&gt;libre&lt;/em&gt; option (free software and no Windows license required).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Advantages and Reasons for running a virtual machine&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No dual-boot!  Dual-booting is my least favorite option which I only resort to when sharing a computer with someone that insists on having a full-fledged Windows install.  A dual-boot setup requires meticulous partitioning of the hard drive and implementing a boot menu.  On the other hand, when using a compatibility layer or virtual machine in Linux there is no reason to shutdown all applications and the computer just to run something in another OS.  I don&amp;rsquo;t run Windows long enough or often enough to want to deal with rebooting.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Sandbox_%28computer_security%29&#34;&gt;Sandboxing&lt;/a&gt;!  A virtual machine only accesses host resources through the emulator.  Basically the guest OS is isolated from the host OS providing additional security.&lt;/p&gt;
+
+&lt;p&gt;Full OS!  OK, this can be argued as an advantage or disadvantage therefore I&amp;rsquo;m calling it a reason for using a virtual machine.  If you occasionally need another OS and a compatibility layer fails then this is an advantage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disadvantages (a.k.a. arguments for Wine)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Must have full copy of guest OS (in this case Windows 7)&lt;/li&gt;
+&lt;li&gt;Uses more memory and disk space&lt;/li&gt;
+&lt;li&gt;Drags down performance (by claiming some memory)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Test system&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Ubuntu 10.04 &amp;ldquo;Lucid Lynx&amp;rdquo;, integrated ATI Radeon™ HD 4200, AMD Sempron 140 with &lt;a href=&#34;http://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_.28AMD-V.29&#34;&gt;AMD-V&lt;/a&gt;, and 4 GB RAM.  Even though this Sempron has an extra core unlocked, only one core/thread was assigned to each virtual machine.  More details about test system &lt;a href=&#34;http://knurdtech.com/cheap-desktop-upgrade/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;VMware Player 3.1.4&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;VMware has many products at different price points.  This refers to the &lt;em&gt;gratis&lt;/em&gt; VMware Player (specifically VMware-Player-3.1.4-385536.i386.bundle).  The virtual machine was configured with 1024 MB RAM for Windows 7.  After Windows installation completed I installed the VMware Tools.  According to VMware&amp;rsquo;s website, &amp;ldquo;installing VMware Tools eliminates or improves the following issues:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;low video resolution&lt;/li&gt;
+&lt;li&gt;inadequate color depth&lt;/li&gt;
+&lt;li&gt;incorrect display of network speed&lt;/li&gt;
+&lt;li&gt;restricted movement of the mouse&lt;/li&gt;
+&lt;li&gt;inability to copy and paste and drag-and-drop files&lt;/li&gt;
+&lt;li&gt;missing sound&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Initially the display flickered and did not work correctly but the issue was solved by turning off 3D graphics acceleration in the VMware machine settings.  Other things confirmed working were USB and sound.  Knurd Sidebar: I actually used this setup to mount an Android phone and use Windows only software to install new bootloaders and a new kernel.&lt;/p&gt;
+
+&lt;p&gt;Passmark ratings&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Overall PassMark rating: 558.9&lt;/li&gt;
+&lt;li&gt;CPU Mark: 714.9&lt;/li&gt;
+&lt;li&gt;2D Graphics Mark: 372.5&lt;/li&gt;
+&lt;li&gt;Memory Mark: 418.1&lt;/li&gt;
+&lt;li&gt;Disk Mark: 1432.8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Oracle VM VirtualBox 4.0.10&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Reviews on the web mostly show version 3.2 or older.  Starting with version 4.0, VirtualBox is split into components.  The base package consists of all open-source components then extension packs add functionality to the base package.  Currently there is only one extension pack which adds support for USB 2.0 devices, RDP, and PXE boot for Intel cards.&lt;/p&gt;
+
+&lt;p&gt;The Guest Additions offer the following features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mouse pointer integration&lt;/li&gt;
+&lt;li&gt;Shared folders&lt;/li&gt;
+&lt;li&gt;Better video support&lt;/li&gt;
+&lt;li&gt;Seamless windows&lt;/li&gt;
+&lt;li&gt;Generic host/guest communication channels&lt;/li&gt;
+&lt;li&gt;Time synchronization&lt;/li&gt;
+&lt;li&gt;Shared clipboard&lt;/li&gt;
+&lt;li&gt;Automated logons (credentials passing)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For some reason this VirtualBox seems smoother.  At first I planned to leave that as a subjective opinion then decided to run PerformanceTest 7.0 from PassMark.  Both virtual machines were assigned the same memory (1024 MB) but VirtualBox was assigned half the disk space of VMware (20 GB versus 40 GB).  Otherwise, I attempted to match all settings.&lt;/p&gt;
+
+&lt;p&gt;As you can see from the results, VMware comes out ahead in everything other than 2D graphics.  Not sure what to make of the large disk discrepancy except to note that VirtualBox did complain about being on an ext4 file system.  The key factor on &lt;em&gt;my crippled hardware&lt;/em&gt; appears to be the better 2D graphics score in VirtualBox.&lt;/p&gt;
+
+&lt;p&gt;Knurd sidebar: If you receive an error that your user is not part of the vboxusers group, the command (as root) is &lt;code&gt;gpasswd -a _youruser_ vboxusers&lt;/code&gt; to add your user to the group.&lt;/p&gt;
+
+&lt;p&gt;Passmark ratings&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Overall PassMark rating: 582.2&lt;/li&gt;
+&lt;li&gt;CPU Mark: 682.1&lt;/li&gt;
+&lt;li&gt;2D Graphics Mark: 438.5&lt;/li&gt;
+&lt;li&gt;Memory Mark: 404.6&lt;/li&gt;
+&lt;li&gt;Disk Mark: 801.3&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is far from a complete test.  First off, USB still needs testing in VirtualBox at which time I will update this post or append a new one.  Beyond that (and in my opinion) VirtualBox runs better on this hardware.  I also prefer the UI and the interactions between host and guest OS in VirtualBox.  Your mileage may vary &amp;ndash; However, if you only have time to install one then my recommendation at this time stands with VirtualBox 4.0.10.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Memories without much Memory</title>
+      <link>http://knurdtech.com/memories-without-memory/</link>
+      <pubDate>Wed, 22 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/memories-without-memory/</guid>
+      <description>&lt;p&gt;Unless you feel nostalgic and want to take a ride down memory lane, stop reading now. This post is just reminiscing on old computers from the past.&lt;/p&gt;
+
+&lt;p&gt;So I ran across the receipts for computer builds previous to my &lt;a href=&#34;http://knurdtech.com/cheap-desktop-upgrade&#34;&gt;cheap desktop upgrade&lt;/a&gt; and had a good laugh.  This actually started in an effort to find details about my current PSU&amp;hellip;which is almost the only detail missing.&lt;/p&gt;
+
+&lt;p&gt;To start with the recent desktop upgrade replaced an Abit KV8 Pro Socket 754 motherboard ($80) with an AMD Sempron 2800+ 1.6 GHz &amp;ldquo;Palermo&amp;rdquo; CPU ($87).  Memory configuration was 1 GB of Corsair DDR400 (PC3200) CAS2.5 &amp;ldquo;value select&amp;rdquo; ($92).  This looks like another build that was supposed to receive an upgrade and never did.  These parts were ordered March 30, 2005.  The graphics were provided by a Leaktek GeForce A6200 with 128 MB DDR ($125).  According to notes it was unlocked to a 6600 with all eight pixel pipelines!  Also at that time a 200 GB Ultra ATA/133 7200 RPM hard drive with 8 MB buffer cost $110 and an NEC ND-3520A 16x Double Layer DVD+-RW cost $66.  Total cost $560 but that is missing case and power supply.&lt;/p&gt;
+
+&lt;p&gt;Before that was a build around the end of August 2000 which included an Abit KT7-RAID ($164) and AMD 700 Thunderbird Socket-A CPU ($146).  A full ATX Apex case with 300 watt power supply for $62.  128 MB Mushkin &amp;ldquo;high performance&amp;rdquo; revision 2 PC133 RAM ($194).  Buckle up it starts getting crazy!  Creative 3D Blaster Annihilator 2 (video graphics) at $249 displaying to a 17&amp;rdquo; Viewsonic PF775 monitor ($314).  Then a Creative Live Platinum 102 sound card ($165) pumping sound to Creative Fourpoint FPS2000 digital surround speakers ($117).  Also at the time an IBM 30 GB ATA/100 cost $139 (multiply by two for RAID) and a Pioneer 16x DVD rang in at $122.  Case fans and a CPU cooler added another $22.  The staggering total (after $122 of separate shipping costs) was just $1955.  Holy crap!&lt;/p&gt;
+
+&lt;p&gt;RAM prices fell by April of 2001 which led to an additional purchase of 256 MB (yes, it was up to 384 MB total) for $103.  Also according to notes the included PSU failed in that same month leading to a replacement $76 Turbo-Cool 300 ATX.  That &amp;ldquo;Thunder-bird&amp;rdquo; was up to $2134 by then.  Makes computers seem cheap nowadays.&lt;/p&gt;
+
+&lt;p&gt;The very last receipt found was for a build at the end of October 1998.  Oh joyous me.  This technology is so old it will just be a quick run through.  VIA VP-3 AGP P5 motherboard with AMD K6-&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;300&lt;/sub&gt; MMX CPU combo ($225).  An astounding 64 MB of PC100 SDRAM ($89).  Matrix Millennium G200 8MB AGP video card ($115) and a PCI sound card ($39).  Brought together with a 10.1 GB IDE hard drive ($249) and a 1.44 MB floppy drive ($18).  Remember those things?  Oh the precious, expensive memories (no pun intended).  Now officially digitized on my blog&amp;hellip;these relics are heading for the recycle bin.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Processor Snapshot</title>
+      <link>http://knurdtech.com/mobile-processor-snapshot/</link>
+      <pubDate>Fri, 04 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/mobile-processor-snapshot/</guid>
+      <description>&lt;p&gt;The goal here is to break down the main differentiating features of recent, new, and upcoming mobile processors.  ARM-based processors lead the superphone and tablet market.  I will break-down and quickly explain fabrication and number of cores plus touch on the graphics engines each mobile processor uses.  Let&amp;rsquo;s dig in.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fabrication:&lt;/strong&gt; Starting with the original Motorola Droid, Palm Pre, Google Nexus One, Droid Incredible, and even HTC EVO 4G the chips were built on a 65nm technology.  These were usually slower processors (compared to today) that required more power to run.  The best examples are TI&amp;rsquo;s OMAP 3430 and Qualcomm&amp;rsquo;s QSD8x50 Snapdragon.  Although the QSD8x50 did have the privilege of providing the first 1 GHz mobile processor!&lt;/p&gt;
+
+&lt;p&gt;Moving to current generation mobile processors they all use 40 - 45 nm technology.  This, of course, lowers power consumption while also increasing performance.  The TI OMAP 36xx series is a 45nm die shrink of the 34xx series.  Qualcomm&amp;rsquo;s MSM8x55 Snapdragon represents the same.  Samsung&amp;rsquo;s &amp;ldquo;Hummingbird&amp;rdquo; S5PC110 made famous by the Galaxy S line of cell phones is in this camp as well.  NVIDIA&amp;rsquo;s Tegra 2 appears to use the only, slightly smaller, 40nm process.&lt;/p&gt;
+
+&lt;p&gt;The next great evolution to 28nm will not happen until sometime around mid-year 2012.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cores and speed:&lt;/strong&gt; NVIDIA Tegra 2 wins first to market with dual-core 1 GHz.  It already holds a significant market lead powering the LG Optimus 2x, Motorola Atrix 4G, Motorola XOOM (tablet) and many others.  Also interesting is that NVIDIA plans to win first-to-market with &lt;strong&gt;quad&lt;/strong&gt;-core towards the end of 2011.&lt;/p&gt;
+
+&lt;p&gt;TI OMAP 4430 dual-core 1 GHz will follow shortly with what appears to be a slight mobile graphics advantage over the Tegra.  The 4430 is already announced for LG Optimus 3D and Blackberry Playbook (tablet).  The power consumption advantage may also be in TI&amp;rsquo;s favor but it is a little early to tell.  The &lt;a href=&#34;http://newscenter.ti.com/Blogs/newsroom/archive/2010/12/08/ti-s-omap4440-processor-boasts-new-upgrades-raises-the-bar-for-mobile-design-572583.aspx&#34;&gt;OMAP 4440&lt;/a&gt; arrives in the second half of 2011 rated at 1.5 GHz per core.&lt;/p&gt;
+
+&lt;p&gt;The final dual-core (worth noting) is the MSM8x60 Snapdragon.  It comes rated the fastest at launch with 1.2 GHz per core.  They also increased graphics performance and efficiency over MSM8x55.  First rumored phone is HTC Pyramid due around May.  Qualcomm also expects to reach 1.5 GHz by the end of 2011.&lt;/p&gt;
+
+&lt;p&gt;ST-Ericsson and Samsung also have dual-cores coming but they don&amp;rsquo;t match up well yet.  Even so, the competition for mobile processors is exciting right now and should drive the technology even faster.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Graphics:&lt;/strong&gt; Three main players in this market.  Imagination Technologies PowerVR division currently licenses the Series5 (SGX5xx) to TI, Samsung, Intel, and Apple.  Qualcomm uses in-house Adreno graphics (formerly ATI/AMD Imageon mobile division).  NVIDIA also stays in-house with their ULP GeForce GPUs.  A fourth worth mentioning is ARM&amp;rsquo;s Mali GPU used in Samsung&amp;rsquo;s dual-core Exynos 4210 and ST-Ericsson.  Considering Samsung also made a big investment in the Tegra 2 and ST-Ericsson committed to transitioning to PowerVR Series6 later&amp;hellip;ARM Mali is certainly behind the curve in graphics.&lt;/p&gt;
+
+&lt;p&gt;Quickly and hopefully not confusingly&amp;hellip;TI OMAP 34xx and 36xx uses SGX530.  Samsung Hummingbird and OMAP 44xx use the SGX540 with at least 2x performance increase.  Qualcomm MSM8x55 uses Adreno 205 and the MSM8x60 will use Adreno 220 with 2-4x boost.  Tegra 2 uses ULP GeForce which should fall in slightly below the OMAP 44xx implementation of SGX540 and the Adreno 220.  &lt;a href=&#34;http://www.anandtech.com/show/4179/ti-omap4-and-lg-optimus-3d-tested&#34;&gt;Here are some preliminary graphs&lt;/a&gt; but note the Adreno 220 absent since it is not yet released.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusions:&lt;/strong&gt; Competition rocks.  I left out some details on purpose (e.g. Cortex A8, A9, A15, Scorpion, and Krait comparisons).  If you&amp;rsquo;re on 65nm technology now is a good time to start looking at upgrade options.  If you want dual-core yesterday then Tegra 2 is the only game.  Can you wait a few months?  TI and Qualcomm should have good options by then.  Personally, the second half of 2012 looks even more promising.  I just hope a Hummingbird and OMAP 3621 will keep me content for 18 months.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Later in 2012:&lt;/strong&gt; TI, NVIDIA, and STEricsson should all release great Cortex-A15&amp;rsquo;s based on 28nm fabrication.  Qualcomm will also arrive with Krait based on 28nm fab.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Line2 Review for Android</title>
+      <link>http://knurdtech.com/line2-review-android/</link>
+      <pubDate>Fri, 18 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/line2-review-android/</guid>
+      <description>&lt;p&gt;Took the opportunity to load Line2 (Toktumi) from the Android market for a free 30-day trial review.  After all it did receive great praise from David Pogue of the New York Times.  Balderdash.&lt;/p&gt;
+
+&lt;p&gt;Let me preface this by saying I&amp;rsquo;m not the target audience for Line2.  Under certain circumstances this app could fit your needs.  Although I find it hard to believe that audience would use Android&amp;hellip;more than likely it would suit the zombies of Apple nation.&lt;/p&gt;
+
+&lt;p&gt;In plain English, Line2 is a phone line quality application to make regular calls to US/Canada landlines or cell phones using WiFi or 3G.  In that regard Line2 excels (for a cost of $10/month).&lt;/p&gt;
+
+&lt;p&gt;Line 2 is a pseudo VoIP app that affords no true VoIP advantages.  While support was fairly quick to respond during my trial, the answers they provided were disappointing.  I&amp;rsquo;m in search of a good &lt;a href=&#34;http://en.wikipedia.org/wiki/Wideband_Audio&#34;&gt;wideband audio&lt;/a&gt; application that works well on Android.  Does Line 2 / Toktumi support wideband?  Yes, if you call another paying Line2 customer.  Can you call a third-party SIP URI that supports wideband?  No.  Can they call your Line2 number wideband?  No.  What wideband codec does Line2 use?  To quote support &amp;ldquo;we can not divulge what codes we support, as they are constantly changing.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Otherwise, the application works as intended for the most part.  The only app related issue experienced was after a week of use.  First of all, I never selected to load the application automatically yet it always loaded after a reboot of my phone.  Secondly, I once had an issue of trying to exit the application.  As soon as I did it would reload again.  Luckily, and for all the faults mentioned above, I deleted Line2 and the problems went away.  Thanks again David Pogue!&lt;/p&gt;
+
+&lt;p&gt;(As a side note, they also do not support iNum or ENUM)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Samsung Captivate first impressions</title>
+      <link>http://knurdtech.com/samsung-captivate-first-impressions/</link>
+      <pubDate>Wed, 01 Sep 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/samsung-captivate-first-impressions/</guid>
+      <description>&lt;p&gt;Finally broke down and purchased one&amp;hellip;been playing with it about a week.  So now it is time for first thoughts about the phone, Android 2.1, and the network.&lt;/p&gt;
+
+&lt;p&gt;First, the Samsung Captivate is nothing short of amazing.  The size is perfect: a brilliant 4&amp;rdquo; Super AMOLED screen that easily fits in my pocket.  Any smaller or larger would be a sacrifice now.  The CPU/GPU (processor and mobile graphics) combo is the best currently available.  As with any technology&amp;hellip;that won&amp;rsquo;t be for long.  I have already mentioned some upcoming dual-core mobile CPUs in other posts.  But the Samsung Hummingbird 1 GHz plays great with Android 2.1 and will absolutely smoke with 2.2.  The only current problems with the phone are GPS issues.  Fixes have been posted on the internet but Samsung is also releasing an official update next month.&lt;/p&gt;
+
+&lt;p&gt;This is my first experience with Android.  Unfortunately it&amp;rsquo;s a customized UI with added AT&amp;amp;T apps.  I haven&amp;rsquo;t rooted or otherwise hacked anything yet.  That said&amp;hellip;it&amp;rsquo;s still a great mobile operating system so far.  I&amp;rsquo;m looking forward to Android 2.2 and tinkering with more things.  Integration with Google apps are great but how far are you willing to give up privacy?  I&amp;rsquo;m currently using gmail, google calendar, and contact sync.  Also absolutely love typing with Swype.&lt;/p&gt;
+
+&lt;p&gt;Which only leaves the network.  They &amp;ldquo;caught&amp;rdquo; me and upgraded the data plan to one that is smartphone appropriate.  You know&amp;hellip;data use on one particular phone should cost more than the same amount of data from another phone.  And an appropriate 3G data on some phones is a requirement even if you plan to live on WiFi&amp;hellip;and even if you did not purchase on subsidized contract.  I could dedicate a whole post (rant) based on all this but I digress.  The sum of the equation is that while they are going to lose me as a customer&amp;hellip;it has absolutely nothing to do with this sexy piece of hardware.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LTE, WiMAX, and HSPA&#43;: the 3.xG battle</title>
+      <link>http://knurdtech.com/lte-wimax-hspa/</link>
+      <pubDate>Thu, 08 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/lte-wimax-hspa/</guid>
+      <description>&lt;p&gt;According to Verizon, the initial LTE network will support average 5-12 Mbps down and 2-5 Mbps up.  Sprint/Clear WiMAX currently supports average 3-6 Mbps down and up to 1 Mbps up.  While T-Mobile&amp;rsquo;s current HSPA+ network along with AT&amp;amp;T&amp;rsquo;s planned rollout should fall somewhere in the middle.&lt;/p&gt;
+
+&lt;p&gt;The two key factors to achieve any of these are actual device throughput and backhaul/tower support in a given area.  Currently there are no handsets that support HSPA+ or LTE speeds.  T-Mobile has announced it&amp;rsquo;s first HSPA+ device, an HTC with Android, will be available in September.  Samsung and MetroPCS plan to release an LTE handset this year but Verizon&amp;rsquo;s latest statement on the matter said to expect one mid-2011.  Then there&amp;rsquo;s AT&amp;amp;T crying that LTE handset technology will be immature until 2012 and devices before then will have short battery life or be large by today&amp;rsquo;s standards.  In other words, it&amp;rsquo;s still all talk at this point.&lt;/p&gt;
+
+&lt;p&gt;Note: Even though LTE and WiMAX is advertised as 4G and may eventually meet the &lt;a href=&#34;http://www.itu.int/net/pressoffice/press_releases/2009/48.aspx&#34;&gt;ITU&lt;/a&gt; definition of 4G, neither do currently.  Among many other requirements, one is reaching 100 Mbps down.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Motorola Droid X / Droid 2 and Samsung Galaxy S</title>
+      <link>http://knurdtech.com/motorola-droid-x-droid-2-and-samsung-galaxy-s/</link>
+      <pubDate>Sun, 04 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/motorola-droid-x-droid-2-and-samsung-galaxy-s/</guid>
+      <description>&lt;p&gt;Still holding on to a Nokia e71 waiting for something that really stands out.  These phones almost fit the bill but the Droid X ends up being a smaller upgrade than initially thought.  Verizon fans considering a Droid X or Droid 2?  Hold out a month or so longer to give the Samsung Fascinate a fair shot.&lt;/p&gt;
+
+&lt;p&gt;First a look at the details of the new Droids.  Droid 2 takes the more evolutionary upgrade route which still houses a physical keypad and a 3.7&amp;rdquo; LCD display.  Droid X attempts to please multimedia enthusiasts with a 4.3&amp;rdquo; LCD display, HDMI out, and 720p HD video capture.  Both Droids receive a processor bump with the TI OMAP3640 and also 512 MB RAM (up from 256).  Compared to the original Droid (TI OMAP3430) it&amp;rsquo;s a smaller die size which allows an increase from 550 MHz to 1 GHz.  Unfortunately, the upgraded processors still use the same integrated GPU (PowerVR SGX530).&lt;/p&gt;
+
+&lt;p&gt;In swoops the Samsung Galaxy S line that will wind up on all four major US carriers (each slightly different and with custom names).  Main attractions to this phone include an upgraded GPU (SGX540) to go along with the 1 GHz Cortex-A8 processor and a stunning 4&amp;rdquo; Super AMOLED display.  The Samsung Vibrant (T-Mobile&amp;rsquo;s version) is already confirmed for July 21st release.  Captivate (AT&amp;T;), Epic 4G (Sprint), and Fascinate (Verizon) should follow shortly.&lt;/p&gt;
+
+&lt;p&gt;The Samsung display and better graphics processor definitely makes it a contender.  Early versions of the Droid Incredible used the same Super AMOLED.  However, Samsung manufactures them and appear to be keeping the majority for themselves.  Motorola had to switch to Sony Super TFT LCD in an attempt to catch up with demand.  They have not even advertised the change in hardware.&lt;/p&gt;
+
+&lt;p&gt;Most of these phones will be out over the next couple of months so it will be interesting to see hands-on reviews.  However, I still find myself holding back for the dual-core processors coming out late this year and early next year.  Those include the OMAP 4400&amp;rsquo;s by TI, Tegra 2 by NVIDIA, U8500 by Sony Ericsson, and dual-core Snapdragon by Qualcomm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cheap desktop upgrade</title>
+      <link>http://knurdtech.com/cheap-desktop-upgrade/</link>
+      <pubDate>Fri, 21 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/cheap-desktop-upgrade/</guid>
+      <description>&lt;p&gt;Finally bit the bullet and did a minor upgrade.  After exhaustive research I settled for a very low end system that is still two to four times faster than my old hardware.  More on that in a bit.  So without further ado, here are the parts:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ASUS M4A785TD-V EVO AM3 AMD 785G - $100&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;G.SKILL ECO Series 4GB (2 x 2GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) - $120&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AMD Sempron 140 Sargas 2.7GHz Socket AM3 45W Single-Core Processor - $33&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All other parts were reused from my old system plus a SATA HDD that was lying around.  The budget was $300 which I could have come closer to but I&amp;rsquo;m happy with these choices to hold me over.&lt;/p&gt;
+
+&lt;p&gt;Memory prices have increased a lot.  September 2009 had four gigs of memory hovering around $50.  This was by far the biggest expense but one not worth skimping on.  DDR3 was basically a starting point for all other parts.  The &amp;ldquo;eco&amp;rdquo; series basically runs at a lower voltage for more energy efficiency.  Now on to a motherboard and CPU that would support it.&lt;/p&gt;
+
+&lt;p&gt;Intel&amp;rsquo;s Core &amp;ldquo;i&amp;rdquo; series are great CPUs but AMD still wins on a cost/performance basis.  AMD just released their &lt;sup&gt;880&lt;/sup&gt;&amp;frasl;&lt;sub&gt;890&lt;/sub&gt; series chipsets but they don&amp;rsquo;t add anything I need.  Since my old video card was AGP, it is now worthless in a new system.  So, something that is cheap but upgradeable with low-end graphics and dual-monitor support?  The 785G chipset!  It can easily be upgraded to better graphics later but works fine for now.  This was a really tough decision as a cheap Nvidia 210 or 220 would probably work better in Linux.&lt;/p&gt;
+
+&lt;p&gt;Then to top it all off, I gambled and got lucky.  The cheapest AM3 socket processor based on the &amp;ldquo;regor&amp;rdquo; core sometimes allows it to unlock to dual-core.  Mine does - basically turning it into an Athlon II X2 235e!  Granted, if you truly want dual-core you should spend the extra 25-30 bucks to get it guaranteed.  But I was already buying twice my old speed (Socket 754 Sempron 2800+ &amp;ldquo;Palermo&amp;rdquo;) with a chance of multitasking&amp;hellip;can&amp;rsquo;t complain either way.  Again, this is easily a part that can be upgraded/replaced later for a quad (or even hexa) core processor.  The goal of this system was simply a cheap upgrade with room to grow.&lt;/p&gt;
+
+&lt;p&gt;Update 06/22/2011: Looking to build now?  Get an AM3+ socket motherboard for compatibility with the new Bulldozer/Zambezi processors.  You can still keep it cheap by using an AM3 socket CPU for now.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

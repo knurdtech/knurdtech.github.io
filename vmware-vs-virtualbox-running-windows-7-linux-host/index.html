@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <title>
+    VMware vs VirtualBox - Running Windows 7 on Linux host // Knurdtech
+  </title>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="generator" content="Hugo 0.14" />
+
+  <meta property="og:title" content="VMware vs VirtualBox - Running Windows 7 on Linux host" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:url" content="http://knurdtech.com/vmware-vs-virtualbox-running-windows-7-linux-host/" />
+
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/base-min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/pure-min.css">
+  
+  
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.5.0/grids-responsive-min.css">
+  
+  
+
+  <link rel="stylesheet" href="http://knurdtech.com/css/redlounge.css">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,700,300,500,600,800' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="Knurdtech" />
+
+    
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/tomorrow-night-bright.min.css">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+
+  
+
+  
+</head>
+
+<body>
+	
+
+	<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+  <div class="header">
+    
+
+	
+
+    <h1 class="brand-title">Knurdtech</h1>
+    <h2 class="brand-tagline">Is super awesome</h2>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><span class="nav-item-separator">//</span><a href="http://knurdtech.com">Home</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/about/">About</a></li>
+        
+          <li class="nav-item"><span class="nav-item-separator">//</span><a href="/affiliate-disclaimer/">Disclaimer</a></li>
+        
+      </ul>
+    </nav>
+
+    
+
+  </div>
+</div>
+
+	
+	
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+		<a name="top"></a>
+		
+
+		
+			
+	    
+  		<section class="post">
+            <h1 class="post-title">
+              <a href="/vmware-vs-virtualbox-running-windows-7-linux-host/">VMware vs VirtualBox - Running Windows 7 on Linux host</a>
+            </h1>
+            <h3 class="post-subtitle">
+            	
+            </h3>
+            
+            	<span class="post-date">
+                	<span class="post-date-day"><sup>14</sup></span><span class="post-date-separator">/</span><span class="post-date-month">Jul</span> <span class="post-date-year">2011</span>
+            	</span>
+            	
+            
+            	
+            
+
+			
+			
+				<div class="post-categories">
+				
+					<a class="post-category post-category-linux" href="http://knurdtech.com/categories/linux">Linux</a>
+				
+				</div>
+			
+
+			
+
+			
+
+            <p><strong>VMware Player 3.1.4 and Oracle VM VirtualBox 4.0.10 - An initial review of two free virtual machines.</strong></p>
+
+<p>A virtual machine allows basically any guest OS to run within a host OS.  In this case running Windows 7 (guest OS) inside Ubuntu 10.04 (host OS).  It can also be useful for testing various distributions of Linux.  The goal is to find the best virtual machine for Linux.</p>
+
+<p>As a quick background, I currently bounce between two computers: a desktop with Ubuntu 10.04 and a laptop with ArchBang.  On occasion I can not avoid requiring Windows.  Which leaves three options: setting up a dual-boot, running a virtual machine, or using a compatibility layer such as <a href="http://www.winehq.org/">Wine</a>.  The third being the only completely <em>gratis</em> (free as in beer) and <em>libre</em> option (free software and no Windows license required).</p>
+
+<p><strong>Advantages and Reasons for running a virtual machine</strong></p>
+
+<p>No dual-boot!  Dual-booting is my least favorite option which I only resort to when sharing a computer with someone that insists on having a full-fledged Windows install.  A dual-boot setup requires meticulous partitioning of the hard drive and implementing a boot menu.  On the other hand, when using a compatibility layer or virtual machine in Linux there is no reason to shutdown all applications and the computer just to run something in another OS.  I don&rsquo;t run Windows long enough or often enough to want to deal with rebooting.</p>
+
+<p><a href="http://en.wikipedia.org/wiki/Sandbox_%28computer_security%29">Sandboxing</a>!  A virtual machine only accesses host resources through the emulator.  Basically the guest OS is isolated from the host OS providing additional security.</p>
+
+<p>Full OS!  OK, this can be argued as an advantage or disadvantage therefore I&rsquo;m calling it a reason for using a virtual machine.  If you occasionally need another OS and a compatibility layer fails then this is an advantage.</p>
+
+<p><strong>Disadvantages (a.k.a. arguments for Wine)</strong></p>
+
+<ul>
+<li>Must have full copy of guest OS (in this case Windows 7)</li>
+<li>Uses more memory and disk space</li>
+<li>Drags down performance (by claiming some memory)</li>
+</ul>
+
+<p><strong>Test system</strong></p>
+
+<p>Ubuntu 10.04 &ldquo;Lucid Lynx&rdquo;, integrated ATI Radeon™ HD 4200, AMD Sempron 140 with <a href="http://en.wikipedia.org/wiki/X86_virtualization#AMD_virtualization_.28AMD-V.29">AMD-V</a>, and 4 GB RAM.  Even though this Sempron has an extra core unlocked, only one core/thread was assigned to each virtual machine.  More details about test system <a href="/cheap-desktop-upgrade/">here</a>.</p>
+
+<p><strong>VMware Player 3.1.4</strong></p>
+
+<p>VMware has many products at different price points.  This refers to the <em>gratis</em> VMware Player (specifically VMware-Player-3.1.4-385536.i386.bundle).  The virtual machine was configured with 1024 MB RAM for Windows 7.  After Windows installation completed I installed the VMware Tools.  According to VMware&rsquo;s website, &ldquo;installing VMware Tools eliminates or improves the following issues:</p>
+
+<ul>
+<li>low video resolution</li>
+<li>inadequate color depth</li>
+<li>incorrect display of network speed</li>
+<li>restricted movement of the mouse</li>
+<li>inability to copy and paste and drag-and-drop files</li>
+<li>missing sound</li>
+</ul>
+
+<p>Initially the display flickered and did not work correctly but the issue was solved by turning off 3D graphics acceleration in the VMware machine settings.  Other things confirmed working were USB and sound.  Knurd Sidebar: I actually used this setup to mount an Android phone and use Windows only software to install new bootloaders and a new kernel.</p>
+
+<p>Passmark ratings</p>
+
+<ul>
+<li>Overall PassMark rating: 558.9</li>
+<li>CPU Mark: 714.9</li>
+<li>2D Graphics Mark: 372.5</li>
+<li>Memory Mark: 418.1</li>
+<li>Disk Mark: 1432.8</li>
+</ul>
+
+<p><strong>Oracle VM VirtualBox 4.0.10</strong></p>
+
+<p>Reviews on the web mostly show version 3.2 or older.  Starting with version 4.0, VirtualBox is split into components.  The base package consists of all open-source components then extension packs add functionality to the base package.  Currently there is only one extension pack which adds support for USB 2.0 devices, RDP, and PXE boot for Intel cards.</p>
+
+<p>The Guest Additions offer the following features:</p>
+
+<ul>
+<li>Mouse pointer integration</li>
+<li>Shared folders</li>
+<li>Better video support</li>
+<li>Seamless windows</li>
+<li>Generic host/guest communication channels</li>
+<li>Time synchronization</li>
+<li>Shared clipboard</li>
+<li>Automated logons (credentials passing)</li>
+</ul>
+
+<p>For some reason this VirtualBox seems smoother.  At first I planned to leave that as a subjective opinion then decided to run PerformanceTest 7.0 from PassMark.  Both virtual machines were assigned the same memory (1024 MB) but VirtualBox was assigned half the disk space of VMware (20 GB versus 40 GB).  Otherwise, I attempted to match all settings.</p>
+
+<p>As you can see from the results, VMware comes out ahead in everything other than 2D graphics.  Not sure what to make of the large disk discrepancy except to note that VirtualBox did complain about being on an ext4 file system.  The key factor on <em>my crippled hardware</em> appears to be the better 2D graphics score in VirtualBox.</p>
+
+<p>Knurd sidebar: If you receive an error that your user is not part of the vboxusers group, the command (as root) is <code>gpasswd -a _youruser_ vboxusers</code> to add your user to the group.</p>
+
+<p>Passmark ratings</p>
+
+<ul>
+<li>Overall PassMark rating: 582.2</li>
+<li>CPU Mark: 682.1</li>
+<li>2D Graphics Mark: 438.5</li>
+<li>Memory Mark: 404.6</li>
+<li>Disk Mark: 801.3</li>
+</ul>
+
+<p><strong>Conclusion</strong></p>
+
+<p>This is far from a complete test.  First off, USB still needs testing in VirtualBox at which time I will update this post or append a new one.  Beyond that (and in my opinion) VirtualBox runs better on this hardware.  I also prefer the UI and the interactions between host and guest OS in VirtualBox.  Your mileage may vary &ndash; However, if you only have time to install one then my recommendation at this time stands with VirtualBox 4.0.10.</p>
+
+	
+			
+
+			
+
+			
+				<div class="paging">
+					<span class="paging-label">More Reading</span>
+					
+					<div class="paging-newer">
+						<span class="dark-red">Newer</span><span class="decorative-marker">//</span>
+						<a class="paging-link" href="/asus-rt-n56u-review/">Asus RT-N56U review</a>
+		            </div>
+		            
+
+					
+					<div class="paging-older">
+						<span class="dark-red">Older</span><span class="decorative-marker">//</span>
+			            <a class="paging-link" href="/memories-without-memory/">Memories without much Memory</a>
+		            </div>
+		            
+	            </div>
+            
+          </section>
+          
+          	
+          
+        
+      <div class="footer">
+	<hr class="thin" />
+	<div class="pure-menu pure-menu-horizontal pure-menu-open">
+		<ul class="footer-menu">
+		
+		</ul>
+	</div>
+
+	<p>&copy; 2015. All rights reserved.</p>
+</div>
+    </div>
+  </div>
+	
+
+	
+
+  
+</body>
+</html>
