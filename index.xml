@@ -6,8 +6,71 @@
     <description>Recent content on Knurdtech</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://knurdtech.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About</title>
+      <link>http://knurdtech.com/about/</link>
+      <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://knurdtech.com/about/</guid>
+      <description>&lt;p&gt;I love following technology, exploring linux, portable devices, networking, SIP/VOIP, lifehacks, gadgets, IPAs, porters, and stouts.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t build massive gaming rigs (and typically don&amp;rsquo;t play computer games). When I do build or upgrade computers I&amp;rsquo;m usually more interested in performance per watt, idle power consumption, and noise levels. Just because I&amp;rsquo;m interested in those doesn&amp;rsquo;t mean it happens. I like to reuse what is available and serves the purpose rather than throw out to waste.&lt;/p&gt;
+
+&lt;p&gt;Current gadgets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Moto X (2014) - Love the Moto Display feature but don&amp;rsquo;t love the camera&lt;/li&gt;
+&lt;li&gt;Amazon Fire TV (it was free)&lt;/li&gt;
+&lt;li&gt;Acer C720 Chromebook - Celeron 2955U Haswell&lt;/li&gt;
+&lt;li&gt;Asus X202e laptop - i3-3217U Ivy Bridge (running Windows 10 but plan to switch to Fedora 23 shortly)&lt;/li&gt;
+&lt;li&gt;HP Pavilion dv6 laptop - i7-3610QM Ivy Bridge (running Fedora 22 but plan to switch to Windows 10)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gadgets under consideration:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Phones
+
+&lt;ul&gt;
+&lt;li&gt;LG Nexus 5X - f/2.0 aperture 12.3 MP sensor 1.55µm pixel size (can this be used to get sensor size?)&lt;/li&gt;
+&lt;li&gt;Huawei Nexus 6P - same rear camera, better front shooter&lt;/li&gt;
+&lt;li&gt;Lumia 950 XL (has glance screen!) - Carl Zeiss optics f/1.9 aperture 20MP (&lt;sup&gt;1&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;.4&amp;rdquo;) sensor PureView software&lt;/li&gt;
+&lt;li&gt;Blackberry Priv&lt;/li&gt;
+&lt;li&gt;LG V10 - likely very pricey&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tablets
+
+&lt;ul&gt;
+&lt;li&gt;Jolla Tablet&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Laptops
+
+&lt;ul&gt;
+&lt;li&gt;Surface Book&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Old gadgets:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;HTPC (Atom ION 330) with Ubuntu 9.10 using XBMC and Boxee beta&lt;/li&gt;
+&lt;li&gt;Nokia e71  (ARM1136J(F)-S)&lt;/li&gt;
+&lt;li&gt;Samsung Galaxy S (Captivate)&lt;/li&gt;
+&lt;li&gt;Nokia 701&lt;/li&gt;
+&lt;li&gt;Desktop with Ubuntu (specs posted &lt;a href=&#34;http://www.knurdtech.com/cheap-desktop-upgrade/&#34;&gt;here&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Core 2 Duo T5500 Laptop with Archbang Linux&lt;/li&gt;
+&lt;li&gt;Moto X (original)&lt;/li&gt;
+&lt;li&gt;Nokia Lumia 920&lt;/li&gt;
+&lt;li&gt;LG Nexus 5&lt;/li&gt;
+&lt;li&gt;Blackberry Z10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An article on phone camera specs: &lt;a href=&#34;http://www.cnet.com/news/camera-megapixels-why-more-isnt-always-better-smartphones-unlocked/&#34;&gt;http://www.cnet.com/news/camera-megapixels-why-more-isnt-always-better-smartphones-unlocked/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Set up a computer for TV using OpenELEC</title>
@@ -686,24 +749,6 @@
 &lt;p&gt;The two key factors to achieve any of these are actual device throughput and backhaul/tower support in a given area.  Currently there are no handsets that support HSPA+ or LTE speeds.  T-Mobile has announced it&amp;rsquo;s first HSPA+ device, an HTC with Android, will be available in September.  Samsung and MetroPCS plan to release an LTE handset this year but Verizon&amp;rsquo;s latest statement on the matter said to expect one mid-2011.  Then there&amp;rsquo;s AT&amp;amp;T crying that LTE handset technology will be immature until 2012 and devices before then will have short battery life or be large by today&amp;rsquo;s standards.  In other words, it&amp;rsquo;s still all talk at this point.&lt;/p&gt;
 
 &lt;p&gt;Note: Even though LTE and WiMAX is advertised as 4G and may eventually meet the &lt;a href=&#34;http://www.itu.int/net/pressoffice/press_releases/2009/48.aspx&#34;&gt;ITU&lt;/a&gt; definition of 4G, neither do currently.  Among many other requirements, one is reaching 100 Mbps down.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Motorola Droid X / Droid 2 and Samsung Galaxy S</title>
-      <link>http://knurdtech.com/motorola-droid-x-droid-2-and-samsung-galaxy-s/</link>
-      <pubDate>Sun, 04 Jul 2010 00:00:00 +0000</pubDate>
-      
-      <guid>http://knurdtech.com/motorola-droid-x-droid-2-and-samsung-galaxy-s/</guid>
-      <description>&lt;p&gt;Still holding on to a Nokia e71 waiting for something that really stands out.  These phones almost fit the bill but the Droid X ends up being a smaller upgrade than initially thought.  Verizon fans considering a Droid X or Droid 2?  Hold out a month or so longer to give the Samsung Fascinate a fair shot.&lt;/p&gt;
-
-&lt;p&gt;First a look at the details of the new Droids.  Droid 2 takes the more evolutionary upgrade route which still houses a physical keypad and a 3.7&amp;rdquo; LCD display.  Droid X attempts to please multimedia enthusiasts with a 4.3&amp;rdquo; LCD display, HDMI out, and 720p HD video capture.  Both Droids receive a processor bump with the TI OMAP3640 and also 512 MB RAM (up from 256).  Compared to the original Droid (TI OMAP3430) it&amp;rsquo;s a smaller die size which allows an increase from 550 MHz to 1 GHz.  Unfortunately, the upgraded processors still use the same integrated GPU (PowerVR SGX530).&lt;/p&gt;
-
-&lt;p&gt;In swoops the Samsung Galaxy S line that will wind up on all four major US carriers (each slightly different and with custom names).  Main attractions to this phone include an upgraded GPU (SGX540) to go along with the 1 GHz Cortex-A8 processor and a stunning 4&amp;rdquo; Super AMOLED display.  The Samsung Vibrant (T-Mobile&amp;rsquo;s version) is already confirmed for July 21st release.  Captivate (AT&amp;T;), Epic 4G (Sprint), and Fascinate (Verizon) should follow shortly.&lt;/p&gt;
-
-&lt;p&gt;The Samsung display and better graphics processor definitely makes it a contender.  Early versions of the Droid Incredible used the same Super AMOLED.  However, Samsung manufactures them and appear to be keeping the majority for themselves.  Motorola had to switch to Sony Super TFT LCD in an attempt to catch up with demand.  They have not even advertised the change in hardware.&lt;/p&gt;
-
-&lt;p&gt;Most of these phones will be out over the next couple of months so it will be interesting to see hands-on reviews.  However, I still find myself holding back for the dual-core processors coming out late this year and early next year.  Those include the OMAP 4400&amp;rsquo;s by TI, Tegra 2 by NVIDIA, U8500 by Sony Ericsson, and dual-core Snapdragon by Qualcomm.&lt;/p&gt;
 </description>
     </item>
     
